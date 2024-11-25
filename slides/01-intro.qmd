@@ -4,7 +4,6 @@ Asegurate de haber seguido las instrucciones de configuración y que tenés los 
 
 [jformoso.github.io/intro-quarto/setup](https://jformoso.github.io/quarto-rladiesBA/setup.html).
 
-
 ## Agradecimientos
 
 **Este taller y sus materiales se basaron en:**
@@ -27,7 +26,7 @@ Estos materiales están publicados bajo la licencia [Creative Commons Attributio
 -   Uso no comercial: No está permitido usar el material con fines comerciales.
 -   Compartir igual: Si adaptás o transformas el material, debés distribuirlo bajo la misma licencia.
 
-{{< fa brands creative-commons size=2x >}}{{< fa brands creative-commons-by size=2x >}}{{< fa brands creative-commons-nc size=2x >}}{{< fa brands creative-commons-sa size=2x >}}
+{{< fa brands creative-commons size=2x >}}{{\< fa brands creative-commons-by size=2x \>}}{{< fa brands creative-commons-nc size=2x >}}{{\< fa brands creative-commons-sa size=2x \>}}
 
 ## 
 
@@ -39,7 +38,6 @@ Estos materiales están publicados bajo la licencia [Creative Commons Attributio
 ![](images/betsy2.png){style="border-radius:1em;margin-top:auto"}
 
 Betsabé Cohen\
-
 
 ![](images/moni.jpg){style="border-radius:1em;margin-top:auto"}
 
@@ -57,17 +55,13 @@ Virginia García Alonso
 :::
 
 ::: {.column width="20%"}
-![](images/Jime.jpg){style="border-radius:1em;margin-top:auto"}
+![](images/jime.jpg){style="border-radius:1em;margin-top:auto"}
 
 Jimena Saucedo
 
 ![](images/pri.jpg){style="border-radius:1em;margin-top:auto"}
 
 Priscilla Minotti
-
-
-
-
 :::
 
 ::: {.column width="20%"}
