@@ -22,7 +22,7 @@ website:
   site-url: "https://jformoso.github.io/quarto-RLadiesBA/"
   favicon: "images/logo-rladies-BA.png"
 
-  repo-url: https://github.com/jformoso/quarto-RLadies-BA
+  repo-url: https://github.com/jformoso/quarto-RLadiesBA
   repo-actions: [source, edit, issue]
 
   page-footer:
