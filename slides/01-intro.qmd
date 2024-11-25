@@ -1,8 +1,9 @@
 ## Mientras esperás que comencemos...
 
-Asegurate de haber seguido las instrucciones de configuración y que tenés los programas y paquetes que necesitás para seguir el taller.
+Asegurate de haber seguido las instrucciones de configuración y que tenés los programas y paquetes que necesitás para seguir el taller:
 
-[jformoso.github.io/intro-quarto/setup](https://jformoso.github.io/intro-quarto/setup).
+[jformoso.github.io/intro-quarto/setup](https://jformoso.github.io/quarto-rladiesBA/setup.html).
+
 
 ## Agradecimientos
 
@@ -26,7 +27,7 @@ Estos materiales están publicados bajo la licencia [Creative Commons Attributio
 -   Uso no comercial: No está permitido usar el material con fines comerciales.
 -   Compartir igual: Si adaptás o transformas el material, debés distribuirlo bajo la misma licencia.
 
-{{< fa brands creative-commons size=2x >}} {{< fa brands creative-commons-by size=2x >}} {{< fa brands creative-commons-nc size=2x >}} {{< fa brands creative-commons-sa size=2x >}}
+{{< fa brands creative-commons size=2x >}}{{< fa brands creative-commons-by size=2x >}}{{< fa brands creative-commons-nc size=2x >}}{{< fa brands creative-commons-sa size=2x >}}
 
 ## 
 
