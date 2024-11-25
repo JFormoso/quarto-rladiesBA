@@ -39,7 +39,7 @@ website:
     type: dark
     tools:
       - icon: github
-        href: https://github.com/jformoso/quarto-RLadies-BA
+        href: https://github.com/JFormoso/quarto-rladiesBA
         text: GitHub
     contents:
      - href: index.qmd
