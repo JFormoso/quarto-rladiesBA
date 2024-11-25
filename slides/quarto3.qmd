@@ -1,0 +1,8 @@
+## Proyecto de R
+
+::: {.incremental}
+- Estructura organizada para gestionar y trabajar en un proyecto de análisis de datos o programación en R. 
+- .Rproj: archivo central que identifica y agrupa los archivos y carpetas asociados al proyecto. 
+- Facilita la reproducibilidad del análisis.
+
+:::
