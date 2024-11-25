@@ -5,7 +5,7 @@
 {{< fa brands instagram >}} [\@rladiesba](https://www.instagram.com/rladiesba/)\
 {{< fa brands twitter >}} [\@RLadiesBA](https://x.com/RLadiesBA)\
 {{< fa brands meetup >}} [RLadies Buenos Aires](https://www.meetup.com/es/rladies-buenos-aires/)\
-{{< fa brands meetup >}} [\@RLadiesBuenosAires](https://youtube.com/@RLadiesBuenosAires)
+{{< fa brands meetup >}} [\@RLadiesBuenosAires](https://youtube.com/@RLadiesBuenosAires)\
 {{< fa globe >}} <https://rladiesba.netlify.app/>
 
 ## ¡No te pierdas las novedades! {.large-font-slide}
