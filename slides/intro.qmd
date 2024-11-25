@@ -14,6 +14,17 @@ Asegurate de haber seguido las instrucciones de configuración y que tenés los 
 \
 [Build-a-Dashboard](https://posit-conf-2024.github.io/quarto-dashboards/) dictado por [Mine Çetinkaya-Rundel](https://mine-cr.com/)
 
+**Auspisian RLadies Buenos Aires:**
+::: columns
+::: {.column}
+![](images/rladies-logo.png){style="border-radius:1em;margin-top:auto" height="270"}
+:::
+::: {.column]
+![](images/rconsortium.png){style="border-radius:1em;margin-top:auto" height="270"}
+:::
+:::
+
+
 ## Codigo de conducta
 
 Todos los espacios de participación de R-Ladies Global y RLadies Buenos Aires, incluyendo reuniones presenciales o virtuales, Twitter, Slack y listas de correo se rigen por el [Código de conducta de RLadies](https://github.com/rladies/.github/blob/master/CODE_OF_CONDUCT.md#spanish).
