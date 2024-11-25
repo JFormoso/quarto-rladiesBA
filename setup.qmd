@@ -23,7 +23,7 @@ Instalá los siguientes paquetes copiando y pegando el siguiente código en la c
 ```{r}
 
 paquetes_lista <- c(
-  "tidyverse", "gt", "ggthemes", "DT", "here", "paletteer"
+  "tidyverse", "gt", "ggthemes"
 )
 install.packages(paquetes_lista)
 
