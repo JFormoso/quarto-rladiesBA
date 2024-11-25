@@ -33,13 +33,13 @@ A lo largo del taller, exploraremos ejemplos prácticos de su uso en
 informes reproducibles, abordando temas como la integración de código y
 texto, la personalización de formatos de salida y el uso de parámetros
 para crear variantes de documentos. Este taller es introductorio está
-dirigida a personas con un conocimiento básico de R y poca o ninguna
+dirigido a personas con un conocimiento básico de R y poca o ninguna
 experiencia previa con Quarto.
 
 ## Objetivos de aprendizaje
 
 -   Familiarizarse con Quarto como una herramienta de publicación
-    dinámica y reproducible que amplía de las capacidades de RMarkdown.
+    dinámica y reproducible que amplía las capacidades de RMarkdown.
 -   Identificar las posibilidades que ofrece para crear documentos
     científicos y técnicos, como informes, presentaciones y sitios web.
 -   Aprender a combinar texto explicativo con código ejecutable para
