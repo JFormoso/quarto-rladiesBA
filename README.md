@@ -37,17 +37,6 @@ experiencia previa con Quarto.
     versiones de un mismo documento de manera eficiente.
 
 
-## Instructora
-
-![](images/perfil.png){style="float:left;padding: 0 10px 0 0; border-radius:50%"
-width="149"}
-
-[Jesica Formoso](https://rladiesba.netlify.app/author/jesica-formoso/)
-es psicóloga cognitiva, Doctora de la Universidad de Buenos Aires, e
-investigadora de CONICET. Además, forma parte de las organizadoras de
-[RLadies Buenos Aires](https://rladiesba.netlify.app/) 💜 y es
-colaboradora en [MetaDocencia](https://www.metadocencia.org/) 🍎.
-
 ## Código de Conducta
 
 R-Ladies se dedica a proporcionar una experiencia libre de acoso para
