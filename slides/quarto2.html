@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>quarto – quarto-rladiesBA</title>
+<title>quarto2 – quarto-rladiesBA</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -73,6 +39,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -176,15 +144,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#quarto" id="toc-quarto" class="nav-link active" data-scroll-target="#quarto">Quarto</a>
+  <li><a href="#archivos-.qmd" id="toc-archivos-.qmd" class="nav-link active" data-scroll-target="#archivos-.qmd">Archivos <code>.qmd</code></a>
   <ul class="collapse">
-  <li><a href="#qué-es-quarto" id="toc-qué-es-quarto" class="nav-link" data-scroll-target="#qué-es-quarto">¿Qué es Quarto?</a></li>
-  <li><a href="#diferencias-con-rmarkdown" id="toc-diferencias-con-rmarkdown" class="nav-link" data-scroll-target="#diferencias-con-rmarkdown">Diferencias con RMarkdown</a></li>
-  <li><a href="#diferencias-con-rmarkdown-1" id="toc-diferencias-con-rmarkdown-1" class="nav-link" data-scroll-target="#diferencias-con-rmarkdown-1">Diferencias con RMarkdown</a></li>
-  <li><a href="#convertir-un-.rmd-a-.qmd" id="toc-convertir-un-.rmd-a-.qmd" class="nav-link" data-scroll-target="#convertir-un-.rmd-a-.qmd">Convertir un <code>.Rmd</code> a <code>.qmd</code></a></li>
+  <li><a href="#tipos-de-contenido" id="toc-tipos-de-contenido" class="nav-link" data-scroll-target="#tipos-de-contenido">Tipos de contenido</a></li>
+  <li><a href="#tipos-de-contenido-1" id="toc-tipos-de-contenido-1" class="nav-link" data-scroll-target="#tipos-de-contenido-1">Tipos de contenido</a></li>
+  <li><a href="#tipos-de-contenido-2" id="toc-tipos-de-contenido-2" class="nav-link" data-scroll-target="#tipos-de-contenido-2">Tipos de contenido</a></li>
+  <li><a href="#tipos-de-contenido-3" id="toc-tipos-de-contenido-3" class="nav-link" data-scroll-target="#tipos-de-contenido-3">Tipos de contenido</a></li>
+  <li><a href="#modos-del-editor-de-rstudio" id="toc-modos-del-editor-de-rstudio" class="nav-link" data-scroll-target="#modos-del-editor-de-rstudio">Modos del editor de RStudio</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/jformoso/quarto-RLadiesBA/blob/main/slides/quarto.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/edit/main/slides/quarto.qmd" class="toc-action"><i class="bi empty"></i>Editar esta página</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/jformoso/quarto-RLadiesBA/blob/main/slides/quarto2.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/edit/main/slides/quarto2.qmd" class="toc-action"><i class="bi empty"></i>Editar esta página</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -192,64 +161,79 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="quarto" class="level1 section">
-<h1 class="section">Quarto</h1>
-<section id="qué-es-quarto" class="level2">
-<h2 class="anchored" data-anchor-id="qué-es-quarto">¿Qué es Quarto?</h2>
-<div class="incremental">
-<ul class="incremental">
-<li><p>Un sistema de publicación científica y técnica de código abierto.</p></li>
-<li><p>Combina texto, código y resultados en un solo documento, permitiendo la creación de reportes totalmente reproducibles.</p></li>
-<li><p>Permite generar artículos, presentaciones, tableros, páginas web, blogs, libros en en múltiples formatos (HTML, pdf, MS Word, ppt).</p></li>
+<section id="archivos-.qmd" class="level1">
+<h1>Archivos <code>.qmd</code></h1>
+<section id="tipos-de-contenido" class="level2">
+<h2 class="anchored" data-anchor-id="tipos-de-contenido">Tipos de contenido</h2>
+<ul>
+<li>Encabezado YAML</li>
+<li>Bloques de código (chunks)</li>
+<li>Texto markdown</li>
 </ul>
-</div>
 </section>
-<section id="diferencias-con-rmarkdown" class="level2">
-<h2 class="anchored" data-anchor-id="diferencias-con-rmarkdown">Diferencias con RMarkdown</h2>
-<div class="incremental">
-<ul class="incremental">
-<li>Soporte multilenguaje: R, python, Julia, JavaScript, Observable.</li>
-<li>Unifica funcionalidades: combina en una única herramienta las capacidades de varios paquetes del ecosistema de RMarkdown. Facilita la generación de múltiples formatos.</li>
-<li>Incluye una interfaz de línea de comando amigable para renderizar documentos.</li>
-</ul>
-</div>
-</section>
-<section id="diferencias-con-rmarkdown-1" class="level2">
-<h2 class="anchored" data-anchor-id="diferencias-con-rmarkdown-1">Diferencias con RMarkdown</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/horst-qmd-render-schema.png" class="img-fluid figure-img"></p>
-<figcaption>Ilustración de la presentación “Hello, Quarto” de Julia Lowndes y Mine Çetinkaya-Rundel, presentada en la Conferencia de RStudio 2022 realizada por Allison Horst.</figcaption>
-</figure>
-</div>
-</section>
-<section id="convertir-un-.rmd-a-.qmd" class="level2">
-<h2 class="anchored" data-anchor-id="convertir-un-.rmd-a-.qmd">Convertir un <code>.Rmd</code> a <code>.qmd</code></h2>
-<ol type="1">
-<li>Cambiar la extensión del archivo de <code>.Rmd</code> a <code>.qmd</code>.</li>
-<li>En el YAML, cambiar <code>output:</code> por <code>format:</code>.</li>
-<li>Convertir los headers de los chunks con <code>knitr::convert_chunk_header()</code></li>
-</ol>
+<section id="tipos-de-contenido-1" class="level2">
+<h2 class="anchored" data-anchor-id="tipos-de-contenido-1">Tipos de contenido</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>R Markdown</strong></p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r, label=rmarkdown, eval=FALSE}</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="in"># código</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<ul>
+<li><p><strong>Encabezado YAML</strong></p>
+<ul>
+<li>Enmarcado por - - -</li>
+<li>Define las configuraciones y metadatos del documento.</li>
+<li>Sintaxis tipo clave: valor (ej. format: html)</li>
+</ul></li>
+</ul>
 </div><div class="column" style="width:50%;">
-<p><strong>Quarto</strong></p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="in">#| label: quarto</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="in">#| eval: false</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="in"># código</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><img src="images/encabezado-yaml.jpg" class="img-fluid quarto-figure quarto-figure-right figure-img"></p>
+</figure>
 </div>
 </div>
 </div>
+</section>
+<section id="tipos-de-contenido-2" class="level2">
+<h2 class="anchored" data-anchor-id="tipos-de-contenido-2">Tipos de contenido</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p><strong>Bloques de código (chunks)</strong></p>
+<ul>
+<li>Permiten ejecutar código dentro del documento <i class="fa-solid fa-play" aria-label="play"></i></li>
+<li>Se definen con tres tildes invertidas (```) seguidas del lenguaje.</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><img src="images/bloque-codigo.jpg" class="img-fluid quarto-figure quarto-figure-right figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="tipos-de-contenido-3" class="level2">
+<h2 class="anchored" data-anchor-id="tipos-de-contenido-3">Tipos de contenido</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><strong>Texto markdown</strong>
+<ul>
+<li>Permite incluir encabezados de sección, e integrar hipervínculos, imágenes, código y resultados en el texto.</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><img src="images/texto-markdown.jpg" class="img-fluid quarto-figure quarto-figure-right figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="modos-del-editor-de-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="modos-del-editor-de-rstudio">Modos del editor de RStudio</h2>
+<p><img src="images/editor.jpg" class="img-fluid"></p>
 
 
 </section>
@@ -689,7 +673,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jformoso/quarto-RLadiesBA/blob/main/slides/quarto.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/edit/main/slides/quarto.qmd" class="toc-action"><i class="bi empty"></i>Editar esta página</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jformoso/quarto-RLadiesBA/blob/main/slides/quarto2.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/edit/main/slides/quarto2.qmd" class="toc-action"><i class="bi empty"></i>Editar esta página</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Website construida con <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
