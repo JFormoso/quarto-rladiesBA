@@ -142,7 +142,7 @@
     "href": "index.html#sobre-este-taller",
     "title": "Transforma tus datos en historias visuales con Quarto",
     "section": "Sobre este taller",
-    "text": "Sobre este taller\nEl taller Transforma tus datos en historias visuales con Quarto nos introducirá a Quarto, un sistema de publicación de código abierto diseñado para crear documentos científicos y técnicos de manera dinámica y reproducible. Aprenderemos cómo Quarto expande las capacidades de R Markdown, permitiéndonos generar informes, presentaciones y sitios web. A lo largo del taller, exploraremos ejemplos prácticos de su uso en informes reproducibles, abordando temas como la integración de código y texto, la personalización de formatos de salida y el uso de parámetros para crear variantes de documentos. Este taller es introductorio está dirigida a personas con un conocimiento básico de R y poca o ninguna experiencia previa con Quarto.",
+    "text": "Sobre este taller\nEl taller Transforma tus datos en historias visuales con Quarto nos introducirá a Quarto, un sistema de publicación de código abierto diseñado para crear documentos científicos y técnicos de manera dinámica y reproducible. Aprenderemos cómo Quarto expande las capacidades de R Markdown, permitiéndonos generar informes, presentaciones y sitios web. A lo largo del taller, exploraremos ejemplos prácticos de su uso en informes reproducibles, abordando temas como la integración de código y texto, la personalización de formatos de salida y el uso de parámetros para crear variantes de documentos. Este taller es introductorio está dirigido a personas con un conocimiento básico de R y poca o ninguna experiencia previa con Quarto.",
     "crumbs": [
       "Inicio"
     ]
@@ -152,7 +152,7 @@
     "href": "index.html#objetivos-de-aprendizaje",
     "title": "Transforma tus datos en historias visuales con Quarto",
     "section": "Objetivos de aprendizaje",
-    "text": "Objetivos de aprendizaje\n\nFamiliarizarse con Quarto como una herramienta de publicación dinámica y reproducible que amplía de las capacidades de RMarkdown.\nIdentificar las posibilidades que ofrece para crear documentos científicos y técnicos, como informes, presentaciones y sitios web.\nAprender a combinar texto explicativo con código ejecutable para generar informes que actualicen resultados automáticamente.\nEntender cómo usar parámetros en Quarto para crear diferentes versiones de un mismo documento de manera eficiente.",
+    "text": "Objetivos de aprendizaje\n\nFamiliarizarse con Quarto como una herramienta de publicación dinámica y reproducible que amplía las capacidades de RMarkdown.\nIdentificar las posibilidades que ofrece para crear documentos científicos y técnicos, como informes, presentaciones y sitios web.\nAprender a combinar texto explicativo con código ejecutable para generar informes que actualicen resultados automáticamente.\nEntender cómo usar parámetros en Quarto para crear diferentes versiones de un mismo documento de manera eficiente.",
     "crumbs": [
       "Inicio"
     ]
