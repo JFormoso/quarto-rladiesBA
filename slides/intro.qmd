@@ -19,7 +19,9 @@ Asegurate de haber seguido las instrucciones de configuración y que tenés los 
 ::: {.column width="40%"}
 ![](images/rladies-logo.png){style="border-radius:1em;margin-top:auto" height="270"}
 :::
-::: {.column width="60%"]
+
+::: {.column width="50%"}
+
 ![](images/rconsortium.png){style="border-radius:1em;margin-top:auto" height="170"}
 :::
 :::
