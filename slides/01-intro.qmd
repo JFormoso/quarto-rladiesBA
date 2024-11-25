@@ -1,8 +1,8 @@
-## Mientras esperás que comencemos...
+## Mientras esperás a que comencemos...
 
 Asegurate de haber seguido las instrucciones de configuración y que tenés los programas y paquetes que necesitás para seguir el taller:
 
-[jformoso.github.io/intro-quarto/setup](https://jformoso.github.io/quarto-rladiesBA/setup.html).
+[jformoso.github.io/intro-quarto/setup.html](https://jformoso.github.io/quarto-rladiesBA/setup.html).
 
 ## Agradecimientos
 
