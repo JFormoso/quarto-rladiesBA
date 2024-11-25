@@ -56,7 +56,7 @@ Virginia García Alonso
 
 ::: {.column width="20%"}
 
-![](images/jime.jpg){style="border-radius:1em;margin-top:auto"}
+![](images/jime.png){style="border-radius:1em;margin-top:auto"}
 
 Jimena Saucedo
 
