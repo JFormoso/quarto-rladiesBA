@@ -8,19 +8,19 @@ Asegurate de haber seguido las instrucciones de configuración y que tenés los 
 
 **Este taller y sus materiales se basaron en:**
 
-\
 [Parameterized Reporting with Quarto: R-Ladies Abuja](https://github.com/jadeynryan/parameterized-quarto-workshop) dictado por [Jadeyn Ryan](https://jadeyryan.com/)
 
-\
-[Build-a-Dashboard](https://posit-conf-2024.github.io/quarto-dashboards/) dictado por [Mine Çetinkaya-Rundel](https://mine-cr.com/)
+[Build-a-Dashboard](https://posit-conf-2024.github.io/quarto-dashboards/) dictado por [Mine Çetinkaya-Rundel](https://mine-cr.com/)\
 
 **Auspisian RLadies Buenos Aires:**
+
+
 ::: columns
-::: {.column}
+::: {.column width="40%"}
 ![](images/rladies-logo.png){style="border-radius:1em;margin-top:auto" height="270"}
 :::
-::: {.column]
-![](images/rconsortium.png){style="border-radius:1em;margin-top:auto" height="270"}
+::: {.column width="60%"]
+![](images/rconsortium.png){style="border-radius:1em;margin-top:auto" height="170"}
 :::
 :::
 
