@@ -1,0 +1,22 @@
+# Antes de que te vayas..
+
+## Seguinos
+
+{{< fa brands instagram >}} [\@rladiesba](https://www.instagram.com/rladiesba/)\
+{{< fa brands twitter >}} [\@RLadiesBA](https://x.com/RLadiesBA)\
+{{< fa brands slack >}} <https://join.slack.com/t/rladies-ba/shared_invite/zt-2v23zo3gi-YGI1yZX2wrvhYfAiA_v5Xg>\
+{{< fa globe >}} <https://rladiesba.netlify.app/>
+
+## ¡No te pierdas las novedades! {.large-font-slide}
+
+::: columns
+::: {.column width="50%"}
+¡Se viene el club de lectura del libro [Mastering Shiny](https://mastering-shiny.org/) de Hadley Wickham! Sumate para aprender \`shiny\` entre todes.
+:::
+
+::: {.column width="50%"}
+![](images/cover-ma.png){fig-align="right" width="419"}
+:::
+:::
+
+# ¡Muchas gracias!

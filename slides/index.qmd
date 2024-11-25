@@ -19,4 +19,6 @@ df-print: kable
 
 {{< include intro.qmd >}}
 {{< include quarto.qmd >}}
+{{< include quarto2.qmd >}}
+{{< include rladies.qmd >}}
 
