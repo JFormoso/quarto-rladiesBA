@@ -17,6 +17,6 @@ df-print: kable
 
 
 
-{{< include 01-intro.qmd >}}
-{{< include 02-quarto.qmd >}}
+{{< include intro.qmd >}}
+{{< include quarto.qmd >}}
 
