@@ -25,7 +25,7 @@
     "href": "slides/quarto2.html",
     "title": "Archivos .qmd",
     "section": "",
-    "text": "Encabezado YAML\nBloques de código (chunks)\nTexto markdown\n\n\n\n\n\n\n\nEncabezado YAML\n\nEnmarcado por - - -\nDefine las configuraciones y metadatos del documento.\nSintaxis tipo clave: valor (ej. format: html)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBloques de código (chunks)\n\nPermiten ejecutar código dentro del documento \nSe definen con tres tildes invertidas (```) seguidas del lenguaje.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTexto markdown\n\nPermite incluir encabezados de sección, e integrar hipervínculos, imágenes, código y resultados en el texto."
+    "text": "Encabezado YAML\nBloques de código (chunks)\nTexto markdown\n\n\n\n\n\n\n\nEncabezado YAML\n\nEnmarcado por - - -\nDefine las configuraciones y metadatos del documento.\nSintaxis tipo clave: valor (ej. format: html)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBloques de código (chunks)\n\nPermiten ejecutar código dentro del documento \nSe definen con tres tildes invertidas (```) seguidas del lenguaje de programación.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTexto markdown\n\nPermite incluir encabezados de sección, e integrar hipervínculos, imágenes, código y resultados en el texto."
   },
   {
     "objectID": "slides/quarto2.html#tipos-de-contenido",
@@ -46,7 +46,7 @@
     "href": "slides/quarto2.html#tipos-de-contenido-2",
     "title": "Archivos .qmd",
     "section": "",
-    "text": "Bloques de código (chunks)\n\nPermiten ejecutar código dentro del documento \nSe definen con tres tildes invertidas (```) seguidas del lenguaje."
+    "text": "Bloques de código (chunks)\n\nPermiten ejecutar código dentro del documento \nSe definen con tres tildes invertidas (```) seguidas del lenguaje de programación."
   },
   {
     "objectID": "slides/quarto2.html#tipos-de-contenido-3",
@@ -299,7 +299,7 @@
     "href": "slides/index.html#tipos-de-contenido-2",
     "title": "Transforma tus datos en historias visuales con quarto",
     "section": "Tipos de contenido",
-    "text": "Tipos de contenido\n\n\n\nBloques de código (chunks)\n\nPermiten ejecutar código dentro del documento \nSe definen con tres tildes invertidas (```) seguidas del lenguaje."
+    "text": "Tipos de contenido\n\n\n\nBloques de código (chunks)\n\nPermiten ejecutar código dentro del documento \nSe definen con tres tildes invertidas (```) seguidas del lenguaje de programación."
   },
   {
     "objectID": "slides/index.html#tipos-de-contenido-3",
