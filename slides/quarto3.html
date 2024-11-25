@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>quarto2 – quarto-rladiesBA</title>
+<title>quarto3 – quarto-rladiesBA</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,8 +39,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -144,16 +142,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#archivos-.qmd" id="toc-archivos-.qmd" class="nav-link active" data-scroll-target="#archivos-.qmd">Archivos <code>.qmd</code></a>
-  <ul class="collapse">
-  <li><a href="#tipos-de-contenido" id="toc-tipos-de-contenido" class="nav-link" data-scroll-target="#tipos-de-contenido">Tipos de contenido</a></li>
-  <li><a href="#tipos-de-contenido-1" id="toc-tipos-de-contenido-1" class="nav-link" data-scroll-target="#tipos-de-contenido-1">Tipos de contenido</a></li>
-  <li><a href="#tipos-de-contenido-2" id="toc-tipos-de-contenido-2" class="nav-link" data-scroll-target="#tipos-de-contenido-2">Tipos de contenido</a></li>
-  <li><a href="#tipos-de-contenido-3" id="toc-tipos-de-contenido-3" class="nav-link" data-scroll-target="#tipos-de-contenido-3">Tipos de contenido</a></li>
-  <li><a href="#modos-del-editor-de-rstudio" id="toc-modos-del-editor-de-rstudio" class="nav-link" data-scroll-target="#modos-del-editor-de-rstudio">Modos del editor de RStudio</a></li>
-  </ul></li>
+  <li><a href="#proyecto-de-r" id="toc-proyecto-de-r" class="nav-link active" data-scroll-target="#proyecto-de-r">Proyecto de R</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/jformoso/quarto-RLadiesBA/blob/main/slides/quarto2.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/edit/main/slides/quarto2.qmd" class="toc-action"><i class="bi empty"></i>Editar esta página</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/jformoso/quarto-RLadiesBA/blob/main/slides/quarto3.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/edit/main/slides/quarto3.qmd" class="toc-action"><i class="bi empty"></i>Editar esta página</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -161,86 +152,17 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="archivos-.qmd" class="level1">
-<h1>Archivos <code>.qmd</code></h1>
-<section id="tipos-de-contenido" class="level2">
-<h2 class="anchored" data-anchor-id="tipos-de-contenido">Tipos de contenido</h2>
-<ul>
-<li>Encabezado YAML</li>
-<li>Bloques de código (chunks)</li>
-<li>Texto markdown</li>
+<section id="proyecto-de-r" class="level2">
+<h2 class="anchored" data-anchor-id="proyecto-de-r">Proyecto de R</h2>
+<div class="incremental">
+<ul class="incremental">
+<li>Estructura organizada para gestionar y trabajar en un proyecto de análisis de datos o programación en R.</li>
+<li>.Rproj: archivo central que identifica y agrupa los archivos y carpetas asociados al proyecto.</li>
+<li>Facilita la reproducibilidad del análisis.</li>
 </ul>
-</section>
-<section id="tipos-de-contenido-1" class="level2">
-<h2 class="anchored" data-anchor-id="tipos-de-contenido-1">Tipos de contenido</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<ul>
-<li><p><strong>Encabezado YAML</strong></p>
-<ul>
-<li>Enmarcado por - - -</li>
-<li>Define las configuraciones y metadatos del documento.</li>
-<li>Sintaxis tipo clave: valor (ej. format: html)</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:70%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/encabezado-yaml.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="tipos-de-contenido-2" class="level2">
-<h2 class="anchored" data-anchor-id="tipos-de-contenido-2">Tipos de contenido</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<ul>
-<li><p><strong>Bloques de código (chunks)</strong></p>
-<ul>
-<li>Permiten ejecutar código dentro del documento <i class="fa-solid fa-play" aria-label="play"></i></li>
-<li>Se definen con tres tildes invertidas (```) seguidas del lenguaje.</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:70%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/bloque-codigo.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="tipos-de-contenido-3" class="level2">
-<h2 class="anchored" data-anchor-id="tipos-de-contenido-3">Tipos de contenido</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<ul>
-<li><strong>Texto markdown</strong>
-<ul>
-<li>Permite incluir encabezados de sección, e integrar hipervínculos, imágenes, código y resultados en el texto.</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:70%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/texto-markdown.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="modos-del-editor-de-rstudio" class="level2">
-<h2 class="anchored" data-anchor-id="modos-del-editor-de-rstudio">Modos del editor de RStudio</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/editor.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
 </div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -677,7 +599,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jformoso/quarto-RLadiesBA/blob/main/slides/quarto2.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/edit/main/slides/quarto2.qmd" class="toc-action"><i class="bi empty"></i>Editar esta página</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jformoso/quarto-RLadiesBA/blob/main/slides/quarto3.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/edit/main/slides/quarto3.qmd" class="toc-action"><i class="bi empty"></i>Editar esta página</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Website construida con <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

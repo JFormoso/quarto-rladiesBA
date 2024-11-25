@@ -222,6 +222,20 @@
     ]
   },
   {
+    "objectID": "slides/quarto3.html",
+    "href": "slides/quarto3.html",
+    "title": "quarto-rladiesBA",
+    "section": "",
+    "text": "Estructura organizada para gestionar y trabajar en un proyecto de análisis de datos o programación en R.\n.Rproj: archivo central que identifica y agrupa los archivos y carpetas asociados al proyecto.\nFacilita la reproducibilidad del análisis."
+  },
+  {
+    "objectID": "slides/quarto3.html#proyecto-de-r",
+    "href": "slides/quarto3.html#proyecto-de-r",
+    "title": "quarto-rladiesBA",
+    "section": "",
+    "text": "Estructura organizada para gestionar y trabajar en un proyecto de análisis de datos o programación en R.\n.Rproj: archivo central que identifica y agrupa los archivos y carpetas asociados al proyecto.\nFacilita la reproducibilidad del análisis."
+  },
+  {
     "objectID": "slides/quarto2.html",
     "href": "slides/quarto2.html",
     "title": "Archivos .qmd",
