@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jformoso.github.io/quarto-RLadiesBA/slides/index.html</loc>
-    <lastmod>2024-11-25T01:33:22.579Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jformoso.github.io/quarto-RLadiesBA/setup.html</loc>
-    <lastmod>2024-11-25T01:33:22.491Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jformoso.github.io/quarto-RLadiesBA/index.html</loc>
-    <lastmod>2024-11-25T01:33:22.491Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jformoso.github.io/quarto-RLadiesBA/materiales.html</loc>
-    <lastmod>2024-11-25T01:33:22.491Z</lastmod>
+    <loc>https://jformoso.github.io/quarto-RLadiesBA/slides/02-quarto.html</loc>
+    <lastmod>2024-11-25T01:45:08.637Z</lastmod>
   </url>
   <url>
     <loc>https://jformoso.github.io/quarto-RLadiesBA/license.html</loc>
-    <lastmod>2024-11-25T01:33:22.491Z</lastmod>
+    <lastmod>2024-11-25T01:45:08.633Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jformoso.github.io/quarto-RLadiesBA/materiales.html</loc>
+    <lastmod>2024-11-25T01:45:08.633Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jformoso.github.io/quarto-RLadiesBA/slides/01-intro.html</loc>
+    <lastmod>2024-11-25T01:45:08.637Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jformoso.github.io/quarto-RLadiesBA/index.html</loc>
+    <lastmod>2024-11-25T01:45:08.633Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jformoso.github.io/quarto-RLadiesBA/setup.html</loc>
+    <lastmod>2024-11-25T01:45:08.637Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jformoso.github.io/quarto-RLadiesBA/slides/index.html</loc>
+    <lastmod>2024-11-25T01:45:08.709Z</lastmod>
   </url>
 </urlset>
