@@ -1,0 +1,17 @@
+---
+title: "Materiales"
+---
+
+## Diapositivas de la presentación
+
+[Accedé a las diapositivas en pantalla completa](/slides/index.html).
+
+```{=html}
+<iframe class="slides" src="/slides/index.html"></iframe>
+```
+
+## Grabación del taller
+
+Se encontrará disponible más adelante.
+
+
