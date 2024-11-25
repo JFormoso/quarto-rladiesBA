@@ -29,7 +29,7 @@
 -   **Bloques de código (chunks)**
 
     -   Permiten ejecutar código dentro del documento {{< fa play >}}
-    -   Se definen con tres tildes invertidas (\`\`\`) seguidas del lenguaje.
+    -   Se definen con tres tildes invertidas (\`\`\`) seguidas del lenguaje de programación.
 :::
 
 ::: {.column width="70%"}
