@@ -1,5 +1,223 @@
 [
   {
+    "objectID": "slides/rladies.html",
+    "href": "slides/rladies.html",
+    "title": "Antes de que te vayas..",
+    "section": "",
+    "text": "@rladiesba\n @RLadiesBA\n RLadies Buenos Aires\n @RLadiesBuenosAires ](https://www.meetup.com/es/rladies-buenos-aires/)\n https://rladiesba.netlify.app/\n\n\n\n\n\n¡Se viene el club de lectura del libro Mastering Shiny de Hadley Wickham! Sumate para aprender `shiny` entre todes."
+  },
+  {
+    "objectID": "slides/rladies.html#seguinos",
+    "href": "slides/rladies.html#seguinos",
+    "title": "Antes de que te vayas..",
+    "section": "",
+    "text": "@rladiesba\n @RLadiesBA\n RLadies Buenos Aires\n @RLadiesBuenosAires ](https://www.meetup.com/es/rladies-buenos-aires/)\n https://rladiesba.netlify.app/"
+  },
+  {
+    "objectID": "slides/rladies.html#no-te-pierdas-las-novedades",
+    "href": "slides/rladies.html#no-te-pierdas-las-novedades",
+    "title": "Antes de que te vayas..",
+    "section": "",
+    "text": "¡Se viene el club de lectura del libro Mastering Shiny de Hadley Wickham! Sumate para aprender `shiny` entre todes."
+  },
+  {
+    "objectID": "slides/quarto2.html",
+    "href": "slides/quarto2.html",
+    "title": "Archivos .qmd",
+    "section": "",
+    "text": "Encabezado YAML\nBloques de código (chunks)\nTexto markdown\n\n\n\n\n\n\n\nEncabezado YAML\n\nEnmarcado por - - -\nDefine las configuraciones y metadatos del documento.\nSintaxis tipo clave: valor (ej. format: html)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBloques de código (chunks)\n\nPermiten ejecutar código dentro del documento \nSe definen con tres tildes invertidas (```) seguidas del lenguaje.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTexto markdown\n\nPermite incluir encabezados de sección, e integrar hipervínculos, imágenes, código y resultados en el texto."
+  },
+  {
+    "objectID": "slides/quarto2.html#tipos-de-contenido",
+    "href": "slides/quarto2.html#tipos-de-contenido",
+    "title": "Archivos .qmd",
+    "section": "",
+    "text": "Encabezado YAML\nBloques de código (chunks)\nTexto markdown"
+  },
+  {
+    "objectID": "slides/quarto2.html#tipos-de-contenido-1",
+    "href": "slides/quarto2.html#tipos-de-contenido-1",
+    "title": "Archivos .qmd",
+    "section": "",
+    "text": "Encabezado YAML\n\nEnmarcado por - - -\nDefine las configuraciones y metadatos del documento.\nSintaxis tipo clave: valor (ej. format: html)"
+  },
+  {
+    "objectID": "slides/quarto2.html#tipos-de-contenido-2",
+    "href": "slides/quarto2.html#tipos-de-contenido-2",
+    "title": "Archivos .qmd",
+    "section": "",
+    "text": "Bloques de código (chunks)\n\nPermiten ejecutar código dentro del documento \nSe definen con tres tildes invertidas (```) seguidas del lenguaje."
+  },
+  {
+    "objectID": "slides/quarto2.html#tipos-de-contenido-3",
+    "href": "slides/quarto2.html#tipos-de-contenido-3",
+    "title": "Archivos .qmd",
+    "section": "",
+    "text": "Texto markdown\n\nPermite incluir encabezados de sección, e integrar hipervínculos, imágenes, código y resultados en el texto."
+  },
+  {
+    "objectID": "slides/intro.html",
+    "href": "slides/intro.html",
+    "title": "quarto-rladiesBA",
+    "section": "",
+    "text": "Asegurate de haber seguido las instrucciones de configuración y que tenés los programas y paquetes que necesitás para seguir el taller:\njformoso.github.io/intro-quarto/setup.html."
+  },
+  {
+    "objectID": "slides/intro.html#mientras-esperás-a-que-comencemos",
+    "href": "slides/intro.html#mientras-esperás-a-que-comencemos",
+    "title": "quarto-rladiesBA",
+    "section": "",
+    "text": "Asegurate de haber seguido las instrucciones de configuración y que tenés los programas y paquetes que necesitás para seguir el taller:\njformoso.github.io/intro-quarto/setup.html."
+  },
+  {
+    "objectID": "slides/intro.html#agradecimientos",
+    "href": "slides/intro.html#agradecimientos",
+    "title": "quarto-rladiesBA",
+    "section": "Agradecimientos",
+    "text": "Agradecimientos\nEste taller y sus materiales se basaron en:\n\nParameterized Reporting with Quarto: R-Ladies Abuja dictado por Jadeyn Ryan\n\nBuild-a-Dashboard dictado por Mine Çetinkaya-Rundel"
+  },
+  {
+    "objectID": "slides/intro.html#codigo-de-conducta",
+    "href": "slides/intro.html#codigo-de-conducta",
+    "title": "quarto-rladiesBA",
+    "section": "Codigo de conducta",
+    "text": "Codigo de conducta\nTodos los espacios de participación de R-Ladies Global y RLadies Buenos Aires, incluyendo reuniones presenciales o virtuales, Twitter, Slack y listas de correo se rigen por el Código de conducta de RLadies."
+  },
+  {
+    "objectID": "slides/intro.html#licencia",
+    "href": "slides/intro.html#licencia",
+    "title": "quarto-rladiesBA",
+    "section": "Licencia",
+    "text": "Licencia\nEstos materiales están publicados bajo la licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA), la cual implica:\n\nAtribución: Podés compartir y adaptar el material siempre que reconozcas la autoría de forma adecuada.\nUso no comercial: No está permitido usar el material con fines comerciales.\nCompartir igual: Si adaptás o transformas el material, debés distribuirlo bajo la misma licencia."
+  },
+  {
+    "objectID": "slides/intro.html#section",
+    "href": "slides/intro.html#section",
+    "title": "quarto-rladiesBA",
+    "section": "",
+    "text": "Betsabé Cohen\n\n\nMónica Alonso\n\n\nKarina Bartolomé\n\nVirginia García Alonso\n\n\nJimena Saucedo\n\nPriscilla Minotti\n\n\nMaría Nanton\n\nJesica Formoso"
+  },
+  {
+    "objectID": "setup.html",
+    "href": "setup.html",
+    "title": "Instrucciones de configuración",
+    "section": "",
+    "text": "Antes del taller, por favor completa los siguientes pasos:\n\n1. Software\nDescargá e instalá las últimas versiones de R, RStudio y Quarto:\n\nR 4.2.3 o superior: https://cran.r-project.org\nRStudio 2024.04.0 or superior: https://posit.co/download/rstudio-desktop\nQuarto 1.4 or superior: https://quarto.org/docs/download\n\n\n\n2. Paquetes\nInstalá los siguientes paquetes copiando y pegando el siguiente código en la consola de RStudio:\n\npaquetes_lista &lt;- c(\n  \"tidyverse\", \"gt\", \"ggthemes\"\n)\ninstall.packages(paquetes_lista)",
+    "crumbs": [
+      "Instrucciones de configuración"
+    ]
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "Licencia",
+    "section": "",
+    "text": "© 2024 Jesica Formoso\nEstos materiales están publicados bajo la licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA), la cual implica:\n\nAtribución: Podés compartir y adaptar el material siempre que reconozcas la autoría de forma adecuada.\nUso no comercial: No está permitido usar el material con fines comerciales.\nCompartir igual: Si adaptás o transformas el material, debés distribuirlo bajo la misma licencia.",
+    "crumbs": [
+      "Licencia"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Transforma tus datos en historias visuales con Quarto",
+    "section": "",
+    "text": "📆 26 de Noviembre, 2024\n⏰18:30 pm - 20:30 pm Argentina (UTC -3)\n🗺️ Online (el link de zoom se compartirá el mismo día)\n✍️ ¡Inscribite aquí!\n🐱 Repositorio en GitHub",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "index.html#fecha-y-ubicación",
+    "href": "index.html#fecha-y-ubicación",
+    "title": "Transforma tus datos en historias visuales con Quarto",
+    "section": "",
+    "text": "📆 26 de Noviembre, 2024\n⏰18:30 pm - 20:30 pm Argentina (UTC -3)\n🗺️ Online (el link de zoom se compartirá el mismo día)\n✍️ ¡Inscribite aquí!\n🐱 Repositorio en GitHub",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "index.html#sobre-este-taller",
+    "href": "index.html#sobre-este-taller",
+    "title": "Transforma tus datos en historias visuales con Quarto",
+    "section": "Sobre este taller",
+    "text": "Sobre este taller\nEl taller Transforma tus datos en historias visuales con Quarto nos introducirá a Quarto, un sistema de publicación de código abierto diseñado para crear documentos científicos y técnicos de manera dinámica y reproducible. Aprenderemos cómo Quarto expande las capacidades de R Markdown, permitiéndonos generar informes, presentaciones y sitios web. A lo largo del taller, exploraremos ejemplos prácticos de su uso en informes reproducibles, abordando temas como la integración de código y texto, la personalización de formatos de salida y el uso de parámetros para crear variantes de documentos. Este taller es introductorio está dirigida a personas con un conocimiento básico de R y poca o ninguna experiencia previa con Quarto.",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "index.html#objetivos-de-aprendizaje",
+    "href": "index.html#objetivos-de-aprendizaje",
+    "title": "Transforma tus datos en historias visuales con Quarto",
+    "section": "Objetivos de aprendizaje",
+    "text": "Objetivos de aprendizaje\n\nFamiliarizarse con Quarto como una herramienta de publicación dinámica y reproducible que amplía de las capacidades de RMarkdown.\nIdentificar las posibilidades que ofrece para crear documentos científicos y técnicos, como informes, presentaciones y sitios web.\nAprender a combinar texto explicativo con código ejecutable para generar informes que actualicen resultados automáticamente.\nEntender cómo usar parámetros en Quarto para crear diferentes versiones de un mismo documento de manera eficiente.",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "index.html#instructora",
+    "href": "index.html#instructora",
+    "title": "Transforma tus datos en historias visuales con Quarto",
+    "section": "Instructora",
+    "text": "Instructora\n\nJesica Formoso es psicóloga cognitiva, Doctora de la Universidad de Buenos Aires, e investigadora de CONICET. Además, forma parte de las organizadoras de RLadies Buenos Aires 💜 y es colaboradora en MetaDocencia 🍎.",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "index.html#código-de-conducta",
+    "href": "index.html#código-de-conducta",
+    "title": "Transforma tus datos en historias visuales con Quarto",
+    "section": "Código de Conducta",
+    "text": "Código de Conducta\nR-Ladies se dedica a proporcionar una experiencia libre de acoso para todes. Conocé el Código de Conducta que se aplica en todos los espacios de participación de R-Ladies Global y del capitulo, incluyendo reuniones presenciales o virtuales, Twitter, Slack, listas de correo, tanto online como offline.",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "index.html#agradecimientos",
+    "href": "index.html#agradecimientos",
+    "title": "Transforma tus datos en historias visuales con Quarto",
+    "section": "Agradecimientos",
+    "text": "Agradecimientos\nLos materiales de este taller se basaron en los presentados por Jadeyn Ryan en el taller Parameterized Reporting with Quarto: R-Ladies Abuja y por Mine Çetinkaya-Rundel en el taller Build-a-Dashboard.",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "materiales.html",
+    "href": "materiales.html",
+    "title": "Materiales",
+    "section": "",
+    "text": "Accedé a las diapositivas en pantalla completa.",
+    "crumbs": [
+      "Materiales"
+    ]
+  },
+  {
+    "objectID": "materiales.html#diapositivas-de-la-presentación",
+    "href": "materiales.html#diapositivas-de-la-presentación",
+    "title": "Materiales",
+    "section": "",
+    "text": "Accedé a las diapositivas en pantalla completa.",
+    "crumbs": [
+      "Materiales"
+    ]
+  },
+  {
+    "objectID": "materiales.html#grabación-del-taller",
+    "href": "materiales.html#grabación-del-taller",
+    "title": "Materiales",
+    "section": "Grabación del taller",
+    "text": "Grabación del taller\nSe encontrará disponible más adelante.",
+    "crumbs": [
+      "Materiales"
+    ]
+  },
+  {
     "objectID": "slides/index.html#mientras-esperás-a-que-comencemos",
     "href": "slides/index.html#mientras-esperás-a-que-comencemos",
     "title": "Transforma tus datos en historias visuales con quarto",
@@ -102,7 +320,7 @@
     "href": "slides/index.html#seguinos",
     "title": "Transforma tus datos en historias visuales con quarto",
     "section": "Seguinos",
-    "text": "Seguinos\n @rladiesba\n @RLadiesBA\n https://join.slack.com/t/rladies-ba/shared_invite/zt-2v23zo3gi-YGI1yZX2wrvhYfAiA_v5Xg\n https://rladiesba.netlify.app/"
+    "text": "Seguinos\n @rladiesba\n @RLadiesBA\n RLadies Buenos Aires\n @RLadiesBuenosAires ](https://www.meetup.com/es/rladies-buenos-aires/)\n https://rladiesba.netlify.app/"
   },
   {
     "objectID": "slides/index.html#no-te-pierdas-las-novedades",
@@ -110,238 +328,6 @@
     "title": "Transforma tus datos en historias visuales con quarto",
     "section": "¡No te pierdas las novedades!",
     "text": "¡No te pierdas las novedades!\n\n\n¡Se viene el club de lectura del libro Mastering Shiny de Hadley Wickham! Sumate para aprender `shiny` entre todes."
-  },
-  {
-    "objectID": "license.html",
-    "href": "license.html",
-    "title": "Licencia",
-    "section": "",
-    "text": "© 2024 Jesica Formoso\nEstos materiales están publicados bajo la licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA), la cual implica:\n\nAtribución: Podés compartir y adaptar el material siempre que reconozcas la autoría de forma adecuada.\nUso no comercial: No está permitido usar el material con fines comerciales.\nCompartir igual: Si adaptás o transformas el material, debés distribuirlo bajo la misma licencia.",
-    "crumbs": [
-      "Licencia"
-    ]
-  },
-  {
-    "objectID": "materiales.html",
-    "href": "materiales.html",
-    "title": "Materiales",
-    "section": "",
-    "text": "Accedé a las diapositivas en pantalla completa.",
-    "crumbs": [
-      "Materiales"
-    ]
-  },
-  {
-    "objectID": "materiales.html#diapositivas-de-la-presentación",
-    "href": "materiales.html#diapositivas-de-la-presentación",
-    "title": "Materiales",
-    "section": "",
-    "text": "Accedé a las diapositivas en pantalla completa.",
-    "crumbs": [
-      "Materiales"
-    ]
-  },
-  {
-    "objectID": "materiales.html#grabación-del-taller",
-    "href": "materiales.html#grabación-del-taller",
-    "title": "Materiales",
-    "section": "Grabación del taller",
-    "text": "Grabación del taller\nSe encontrará disponible más adelante.",
-    "crumbs": [
-      "Materiales"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Transforma tus datos en historias visuales con Quarto",
-    "section": "",
-    "text": "📆 26 de Noviembre, 2024\n⏰18:30 pm - 20:30 pm Argentina (UTC -3)\n🗺️ Online (el link de zoom se compartirá el mismo día)\n✍️ ¡Inscribite aquí!\n🐱 Repositorio en GitHub",
-    "crumbs": [
-      "Inicio"
-    ]
-  },
-  {
-    "objectID": "index.html#fecha-y-ubicación",
-    "href": "index.html#fecha-y-ubicación",
-    "title": "Transforma tus datos en historias visuales con Quarto",
-    "section": "",
-    "text": "📆 26 de Noviembre, 2024\n⏰18:30 pm - 20:30 pm Argentina (UTC -3)\n🗺️ Online (el link de zoom se compartirá el mismo día)\n✍️ ¡Inscribite aquí!\n🐱 Repositorio en GitHub",
-    "crumbs": [
-      "Inicio"
-    ]
-  },
-  {
-    "objectID": "index.html#sobre-este-taller",
-    "href": "index.html#sobre-este-taller",
-    "title": "Transforma tus datos en historias visuales con Quarto",
-    "section": "Sobre este taller",
-    "text": "Sobre este taller\nEl taller Transforma tus datos en historias visuales con Quarto nos introducirá a Quarto, un sistema de publicación de código abierto diseñado para crear documentos científicos y técnicos de manera dinámica y reproducible. Aprenderemos cómo Quarto expande las capacidades de R Markdown, permitiéndonos generar informes, presentaciones y sitios web. A lo largo del taller, exploraremos ejemplos prácticos de su uso en informes reproducibles, abordando temas como la integración de código y texto, la personalización de formatos de salida y el uso de parámetros para crear variantes de documentos. Este taller es introductorio está dirigida a personas con un conocimiento básico de R y poca o ninguna experiencia previa con Quarto.",
-    "crumbs": [
-      "Inicio"
-    ]
-  },
-  {
-    "objectID": "index.html#objetivos-de-aprendizaje",
-    "href": "index.html#objetivos-de-aprendizaje",
-    "title": "Transforma tus datos en historias visuales con Quarto",
-    "section": "Objetivos de aprendizaje",
-    "text": "Objetivos de aprendizaje\n\nFamiliarizarse con Quarto como una herramienta de publicación dinámica y reproducible que amplía de las capacidades de RMarkdown.\nIdentificar las posibilidades que ofrece para crear documentos científicos y técnicos, como informes, presentaciones y sitios web.\nAprender a combinar texto explicativo con código ejecutable para generar informes que actualicen resultados automáticamente.\nEntender cómo usar parámetros en Quarto para crear diferentes versiones de un mismo documento de manera eficiente.",
-    "crumbs": [
-      "Inicio"
-    ]
-  },
-  {
-    "objectID": "index.html#instructora",
-    "href": "index.html#instructora",
-    "title": "Transforma tus datos en historias visuales con Quarto",
-    "section": "Instructora",
-    "text": "Instructora\n\nJesica Formoso es psicóloga cognitiva, Doctora de la Universidad de Buenos Aires, e investigadora de CONICET. Además, forma parte de las organizadoras de RLadies Buenos Aires 💜 y es colaboradora en MetaDocencia 🍎.",
-    "crumbs": [
-      "Inicio"
-    ]
-  },
-  {
-    "objectID": "index.html#código-de-conducta",
-    "href": "index.html#código-de-conducta",
-    "title": "Transforma tus datos en historias visuales con Quarto",
-    "section": "Código de Conducta",
-    "text": "Código de Conducta\nR-Ladies se dedica a proporcionar una experiencia libre de acoso para todes. Conocé el Código de Conducta que se aplica en todos los espacios de participación de R-Ladies Global y del capitulo, incluyendo reuniones presenciales o virtuales, Twitter, Slack, listas de correo, tanto online como offline.",
-    "crumbs": [
-      "Inicio"
-    ]
-  },
-  {
-    "objectID": "index.html#agradecimientos",
-    "href": "index.html#agradecimientos",
-    "title": "Transforma tus datos en historias visuales con Quarto",
-    "section": "Agradecimientos",
-    "text": "Agradecimientos\nLos materiales de este taller se basaron en los presentados por Jadeyn Ryan en el taller Parameterized Reporting with Quarto: R-Ladies Abuja y por Mine Çetinkaya-Rundel en el taller Build-a-Dashboard.",
-    "crumbs": [
-      "Inicio"
-    ]
-  },
-  {
-    "objectID": "slides/quarto3.html",
-    "href": "slides/quarto3.html",
-    "title": "quarto-rladiesBA",
-    "section": "",
-    "text": "Estructura organizada para gestionar y trabajar en un proyecto de análisis de datos o programación en R.\n.Rproj: archivo central que identifica y agrupa los archivos y carpetas asociados al proyecto.\nFacilita la reproducibilidad del análisis."
-  },
-  {
-    "objectID": "slides/quarto3.html#proyecto-de-r",
-    "href": "slides/quarto3.html#proyecto-de-r",
-    "title": "quarto-rladiesBA",
-    "section": "",
-    "text": "Estructura organizada para gestionar y trabajar en un proyecto de análisis de datos o programación en R.\n.Rproj: archivo central que identifica y agrupa los archivos y carpetas asociados al proyecto.\nFacilita la reproducibilidad del análisis."
-  },
-  {
-    "objectID": "slides/quarto2.html",
-    "href": "slides/quarto2.html",
-    "title": "Archivos .qmd",
-    "section": "",
-    "text": "Encabezado YAML\nBloques de código (chunks)\nTexto markdown\n\n\n\n\n\n\n\nEncabezado YAML\n\nEnmarcado por - - -\nDefine las configuraciones y metadatos del documento.\nSintaxis tipo clave: valor (ej. format: html)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBloques de código (chunks)\n\nPermiten ejecutar código dentro del documento \nSe definen con tres tildes invertidas (```) seguidas del lenguaje.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTexto markdown\n\nPermite incluir encabezados de sección, e integrar hipervínculos, imágenes, código y resultados en el texto."
-  },
-  {
-    "objectID": "slides/quarto2.html#tipos-de-contenido",
-    "href": "slides/quarto2.html#tipos-de-contenido",
-    "title": "Archivos .qmd",
-    "section": "",
-    "text": "Encabezado YAML\nBloques de código (chunks)\nTexto markdown"
-  },
-  {
-    "objectID": "slides/quarto2.html#tipos-de-contenido-1",
-    "href": "slides/quarto2.html#tipos-de-contenido-1",
-    "title": "Archivos .qmd",
-    "section": "",
-    "text": "Encabezado YAML\n\nEnmarcado por - - -\nDefine las configuraciones y metadatos del documento.\nSintaxis tipo clave: valor (ej. format: html)"
-  },
-  {
-    "objectID": "slides/quarto2.html#tipos-de-contenido-2",
-    "href": "slides/quarto2.html#tipos-de-contenido-2",
-    "title": "Archivos .qmd",
-    "section": "",
-    "text": "Bloques de código (chunks)\n\nPermiten ejecutar código dentro del documento \nSe definen con tres tildes invertidas (```) seguidas del lenguaje."
-  },
-  {
-    "objectID": "slides/quarto2.html#tipos-de-contenido-3",
-    "href": "slides/quarto2.html#tipos-de-contenido-3",
-    "title": "Archivos .qmd",
-    "section": "",
-    "text": "Texto markdown\n\nPermite incluir encabezados de sección, e integrar hipervínculos, imágenes, código y resultados en el texto."
-  },
-  {
-    "objectID": "slides/rladies.html",
-    "href": "slides/rladies.html",
-    "title": "Antes de que te vayas..",
-    "section": "",
-    "text": "@rladiesba\n @RLadiesBA\n https://join.slack.com/t/rladies-ba/shared_invite/zt-2v23zo3gi-YGI1yZX2wrvhYfAiA_v5Xg\n https://rladiesba.netlify.app/\n\n\n\n\n\n¡Se viene el club de lectura del libro Mastering Shiny de Hadley Wickham! Sumate para aprender `shiny` entre todes."
-  },
-  {
-    "objectID": "slides/rladies.html#seguinos",
-    "href": "slides/rladies.html#seguinos",
-    "title": "Antes de que te vayas..",
-    "section": "",
-    "text": "@rladiesba\n @RLadiesBA\n https://join.slack.com/t/rladies-ba/shared_invite/zt-2v23zo3gi-YGI1yZX2wrvhYfAiA_v5Xg\n https://rladiesba.netlify.app/"
-  },
-  {
-    "objectID": "slides/rladies.html#no-te-pierdas-las-novedades",
-    "href": "slides/rladies.html#no-te-pierdas-las-novedades",
-    "title": "Antes de que te vayas..",
-    "section": "",
-    "text": "¡Se viene el club de lectura del libro Mastering Shiny de Hadley Wickham! Sumate para aprender `shiny` entre todes."
-  },
-  {
-    "objectID": "slides/intro.html",
-    "href": "slides/intro.html",
-    "title": "quarto-rladiesBA",
-    "section": "",
-    "text": "Asegurate de haber seguido las instrucciones de configuración y que tenés los programas y paquetes que necesitás para seguir el taller:\njformoso.github.io/intro-quarto/setup.html."
-  },
-  {
-    "objectID": "slides/intro.html#mientras-esperás-a-que-comencemos",
-    "href": "slides/intro.html#mientras-esperás-a-que-comencemos",
-    "title": "quarto-rladiesBA",
-    "section": "",
-    "text": "Asegurate de haber seguido las instrucciones de configuración y que tenés los programas y paquetes que necesitás para seguir el taller:\njformoso.github.io/intro-quarto/setup.html."
-  },
-  {
-    "objectID": "slides/intro.html#agradecimientos",
-    "href": "slides/intro.html#agradecimientos",
-    "title": "quarto-rladiesBA",
-    "section": "Agradecimientos",
-    "text": "Agradecimientos\nEste taller y sus materiales se basaron en:\n\nParameterized Reporting with Quarto: R-Ladies Abuja dictado por Jadeyn Ryan\n\nBuild-a-Dashboard dictado por Mine Çetinkaya-Rundel"
-  },
-  {
-    "objectID": "slides/intro.html#codigo-de-conducta",
-    "href": "slides/intro.html#codigo-de-conducta",
-    "title": "quarto-rladiesBA",
-    "section": "Codigo de conducta",
-    "text": "Codigo de conducta\nTodos los espacios de participación de R-Ladies Global y RLadies Buenos Aires, incluyendo reuniones presenciales o virtuales, Twitter, Slack y listas de correo se rigen por el Código de conducta de RLadies."
-  },
-  {
-    "objectID": "slides/intro.html#licencia",
-    "href": "slides/intro.html#licencia",
-    "title": "quarto-rladiesBA",
-    "section": "Licencia",
-    "text": "Licencia\nEstos materiales están publicados bajo la licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA), la cual implica:\n\nAtribución: Podés compartir y adaptar el material siempre que reconozcas la autoría de forma adecuada.\nUso no comercial: No está permitido usar el material con fines comerciales.\nCompartir igual: Si adaptás o transformas el material, debés distribuirlo bajo la misma licencia."
-  },
-  {
-    "objectID": "slides/intro.html#section",
-    "href": "slides/intro.html#section",
-    "title": "quarto-rladiesBA",
-    "section": "",
-    "text": "Betsabé Cohen\n\n\nMónica Alonso\n\n\nKarina Bartolomé\n\nVirginia García Alonso\n\n\nJimena Saucedo\n\nPriscilla Minotti\n\n\nMaría Nanton\n\nJesica Formoso"
-  },
-  {
-    "objectID": "setup.html",
-    "href": "setup.html",
-    "title": "Instrucciones de configuración",
-    "section": "",
-    "text": "Antes del taller, por favor completa los siguientes pasos:\n\n1. Software\nDescargá e instalá las últimas versiones de R, RStudio y Quarto:\n\nR 4.2.3 o superior: https://cran.r-project.org\nRStudio 2024.04.0 or superior: https://posit.co/download/rstudio-desktop\nQuarto 1.4 or superior: https://quarto.org/docs/download\n\n\n\n2. Paquetes\nInstalá los siguientes paquetes copiando y pegando el siguiente código en la consola de RStudio:\n\npaquetes_lista &lt;- c(\n  \"tidyverse\", \"gt\", \"ggthemes\"\n)\ninstall.packages(paquetes_lista)",
-    "crumbs": [
-      "Instrucciones de configuración"
-    ]
   },
   {
     "objectID": "slides/quarto.html",
@@ -377,5 +363,19 @@
     "title": "Quarto",
     "section": "",
     "text": "Cambiar la extensión del archivo de .Rmd a .qmd.\nEn el YAML, cambiar output: por format:.\nConvertir los headers de los chunks con knitr::convert_chunk_header()\n\n\n\nR Markdown\n\n```{r, label=rmarkdown, eval=FALSE}\n# código\n```\n\n\nQuarto\n\n```{r}\n#| label: quarto\n#| eval: false\n\n# código\n```"
+  },
+  {
+    "objectID": "slides/quarto3.html",
+    "href": "slides/quarto3.html",
+    "title": "quarto-rladiesBA",
+    "section": "",
+    "text": "Estructura organizada para gestionar y trabajar en un proyecto de análisis de datos o programación en R.\n.Rproj: archivo central que identifica y agrupa los archivos y carpetas asociados al proyecto.\nFacilita la reproducibilidad del análisis."
+  },
+  {
+    "objectID": "slides/quarto3.html#proyecto-de-r",
+    "href": "slides/quarto3.html#proyecto-de-r",
+    "title": "quarto-rladiesBA",
+    "section": "",
+    "text": "Estructura organizada para gestionar y trabajar en un proyecto de análisis de datos o programación en R.\n.Rproj: archivo central que identifica y agrupa los archivos y carpetas asociados al proyecto.\nFacilita la reproducibilidad del análisis."
   }
 ]
