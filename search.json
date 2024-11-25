@@ -1,49 +1,49 @@
 [
   {
-    "objectID": "slides/02-quarto.html",
-    "href": "slides/02-quarto.html",
+    "objectID": "slides/quarto.html",
+    "href": "slides/quarto.html",
     "title": "Quarto",
     "section": "",
     "text": "Un sistema de publicación científica y técnica de código abierto.\nCombina texto, código y resultados en un solo documento, permitiendo la creación de reportes totalmente reproducibles.\nPermite generar artículos, presentaciones, tableros, páginas web, blogs, libros en en múltiples formatos (HTML, pdf, MS Word, ppt).\n\n\n\n\n\n\n\nSoporte multilenguaje: R, python, Julia, JavaScript, Observable.\nUnifica funcionalidades: combina en una única herramienta las capacidades de varios paquetes del ecosistema de RMarkdown. Facilita la generación de múltiples formatos.\nIncluye una interfaz de línea de comando amigable para renderizar documentos.\n\n\n\n\n\n\n\n\nIlustración de la presentación “Hello, Quarto” de Julia Lowndes y Mine Çetinkaya-Rundel, presentada en la Conferencia de RStudio 2022 realizada por Allison Horst.\n\n\n\n\n\n\nCambiar la extensión del archivo de .Rmd a .qmd.\nEn el YAML, cambiar output: por format:.\nConvertir los headers de los chunks con knitr::convert_chunk_header()\n\n\n\nR Markdown\n\n```{r, label=rmarkdown, eval=FALSE}\n# código\n```\n\n\nQuarto\n\n```{r}\n#| label: quarto\n#| eval: false\n\n# código\n```"
   },
   {
-    "objectID": "slides/02-quarto.html#qué-es-quarto",
-    "href": "slides/02-quarto.html#qué-es-quarto",
+    "objectID": "slides/quarto.html#qué-es-quarto",
+    "href": "slides/quarto.html#qué-es-quarto",
     "title": "Quarto",
     "section": "",
     "text": "Un sistema de publicación científica y técnica de código abierto.\nCombina texto, código y resultados en un solo documento, permitiendo la creación de reportes totalmente reproducibles.\nPermite generar artículos, presentaciones, tableros, páginas web, blogs, libros en en múltiples formatos (HTML, pdf, MS Word, ppt)."
   },
   {
-    "objectID": "slides/02-quarto.html#diferencias-con-rmarkdown",
-    "href": "slides/02-quarto.html#diferencias-con-rmarkdown",
+    "objectID": "slides/quarto.html#diferencias-con-rmarkdown",
+    "href": "slides/quarto.html#diferencias-con-rmarkdown",
     "title": "Quarto",
     "section": "",
     "text": "Soporte multilenguaje: R, python, Julia, JavaScript, Observable.\nUnifica funcionalidades: combina en una única herramienta las capacidades de varios paquetes del ecosistema de RMarkdown. Facilita la generación de múltiples formatos.\nIncluye una interfaz de línea de comando amigable para renderizar documentos."
   },
   {
-    "objectID": "slides/02-quarto.html#diferencias-con-rmarkdown-1",
-    "href": "slides/02-quarto.html#diferencias-con-rmarkdown-1",
+    "objectID": "slides/quarto.html#diferencias-con-rmarkdown-1",
+    "href": "slides/quarto.html#diferencias-con-rmarkdown-1",
     "title": "Quarto",
     "section": "",
     "text": "Ilustración de la presentación “Hello, Quarto” de Julia Lowndes y Mine Çetinkaya-Rundel, presentada en la Conferencia de RStudio 2022 realizada por Allison Horst."
   },
   {
-    "objectID": "slides/02-quarto.html#convertir-un-.rmd-a-.qmd",
-    "href": "slides/02-quarto.html#convertir-un-.rmd-a-.qmd",
+    "objectID": "slides/quarto.html#convertir-un-.rmd-a-.qmd",
+    "href": "slides/quarto.html#convertir-un-.rmd-a-.qmd",
     "title": "Quarto",
     "section": "",
     "text": "Cambiar la extensión del archivo de .Rmd a .qmd.\nEn el YAML, cambiar output: por format:.\nConvertir los headers de los chunks con knitr::convert_chunk_header()\n\n\n\nR Markdown\n\n```{r, label=rmarkdown, eval=FALSE}\n# código\n```\n\n\nQuarto\n\n```{r}\n#| label: quarto\n#| eval: false\n\n# código\n```"
   },
   {
-    "objectID": "slides/02-quarto.html#seguinos",
-    "href": "slides/02-quarto.html#seguinos",
+    "objectID": "slides/quarto.html#seguinos",
+    "href": "slides/quarto.html#seguinos",
     "title": "Quarto",
     "section": "Seguinos",
     "text": "Seguinos\n @rladiesba\n @RLadiesBA\n https://join.slack.com/t/rladies-ba/shared_invite/zt-2v23zo3gi-YGI1yZX2wrvhYfAiA_v5Xg\n https://rladiesba.netlify.app/"
   },
   {
-    "objectID": "slides/02-quarto.html#no-te-pierdas-las-novedades",
-    "href": "slides/02-quarto.html#no-te-pierdas-las-novedades",
+    "objectID": "slides/quarto.html#no-te-pierdas-las-novedades",
+    "href": "slides/quarto.html#no-te-pierdas-las-novedades",
     "title": "Quarto",
     "section": "¡No te pierdas las novedades!",
     "text": "¡No te pierdas las novedades!\n\n\n¡Se viene el club de lectura del libro Mastering Shiny de Hadley Wickham! Sumate para aprender `shiny` entre todes."
@@ -89,43 +89,43 @@
     ]
   },
   {
-    "objectID": "slides/01-intro.html",
-    "href": "slides/01-intro.html",
+    "objectID": "slides/intro.html",
+    "href": "slides/intro.html",
     "title": "quarto-rladiesBA",
     "section": "",
     "text": "Asegurate de haber seguido las instrucciones de configuración y que tenés los programas y paquetes que necesitás para seguir el taller:\njformoso.github.io/intro-quarto/setup.html."
   },
   {
-    "objectID": "slides/01-intro.html#mientras-esperás-a-que-comencemos",
-    "href": "slides/01-intro.html#mientras-esperás-a-que-comencemos",
+    "objectID": "slides/intro.html#mientras-esperás-a-que-comencemos",
+    "href": "slides/intro.html#mientras-esperás-a-que-comencemos",
     "title": "quarto-rladiesBA",
     "section": "",
     "text": "Asegurate de haber seguido las instrucciones de configuración y que tenés los programas y paquetes que necesitás para seguir el taller:\njformoso.github.io/intro-quarto/setup.html."
   },
   {
-    "objectID": "slides/01-intro.html#agradecimientos",
-    "href": "slides/01-intro.html#agradecimientos",
+    "objectID": "slides/intro.html#agradecimientos",
+    "href": "slides/intro.html#agradecimientos",
     "title": "quarto-rladiesBA",
     "section": "Agradecimientos",
     "text": "Agradecimientos\nEste taller y sus materiales se basaron en:\n\nParameterized Reporting with Quarto: R-Ladies Abuja dictado por Jadeyn Ryan\n\nBuild-a-Dashboard dictado por Mine Çetinkaya-Rundel"
   },
   {
-    "objectID": "slides/01-intro.html#codigo-de-conducta",
-    "href": "slides/01-intro.html#codigo-de-conducta",
+    "objectID": "slides/intro.html#codigo-de-conducta",
+    "href": "slides/intro.html#codigo-de-conducta",
     "title": "quarto-rladiesBA",
     "section": "Codigo de conducta",
     "text": "Codigo de conducta\nTodos los espacios de participación de R-Ladies Global y RLadies Buenos Aires, incluyendo reuniones presenciales o virtuales, Twitter, Slack y listas de correo se rigen por el Código de conducta de RLadies."
   },
   {
-    "objectID": "slides/01-intro.html#licencia",
-    "href": "slides/01-intro.html#licencia",
+    "objectID": "slides/intro.html#licencia",
+    "href": "slides/intro.html#licencia",
     "title": "quarto-rladiesBA",
     "section": "Licencia",
     "text": "Licencia\nEstos materiales están publicados bajo la licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA), la cual implica:\n\nAtribución: Podés compartir y adaptar el material siempre que reconozcas la autoría de forma adecuada.\nUso no comercial: No está permitido usar el material con fines comerciales.\nCompartir igual: Si adaptás o transformas el material, debés distribuirlo bajo la misma licencia.\n\n{{&lt; fa brands creative-commons-by size=2x &gt;}}{{&lt; fa brands creative-commons-sa size=2x &gt;}}"
   },
   {
-    "objectID": "slides/01-intro.html#section",
-    "href": "slides/01-intro.html#section",
+    "objectID": "slides/intro.html#section",
+    "href": "slides/intro.html#section",
     "title": "quarto-rladiesBA",
     "section": "",
     "text": "Betsabé Cohen\n\n\nMónica Alonso\n\n\nKarina Bartolomé\n\nVirginia García Alonso\n\n\nJimena Saucedo\n\nPriscilla Minotti\n\n\nMaría Nanton\n\nJesica Formoso"
@@ -211,11 +211,11 @@
     ]
   },
   {
-    "objectID": "slides/index.html#mientras-esperás-que-comencemos",
-    "href": "slides/index.html#mientras-esperás-que-comencemos",
+    "objectID": "slides/index.html#mientras-esperás-a-que-comencemos",
+    "href": "slides/index.html#mientras-esperás-a-que-comencemos",
     "title": "Transforma tus datos en historias visuales con quarto",
-    "section": "Mientras esperás que comencemos…",
-    "text": "Mientras esperás que comencemos…\nAsegurate de haber seguido las instrucciones de configuración y que tenés los programas y paquetes que necesitás para seguir el taller.\njformoso.github.io/intro-quarto/setup."
+    "section": "Mientras esperás a que comencemos…",
+    "text": "Mientras esperás a que comencemos…\nAsegurate de haber seguido las instrucciones de configuración y que tenés los programas y paquetes que necesitás para seguir el taller:\njformoso.github.io/intro-quarto/setup.html."
   },
   {
     "objectID": "slides/index.html#agradecimientos",
@@ -236,7 +236,7 @@
     "href": "slides/index.html#licencia",
     "title": "Transforma tus datos en historias visuales con quarto",
     "section": "Licencia",
-    "text": "Licencia\nEstos materiales están publicados bajo la licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA), la cual implica:\n\nAtribución: Podés compartir y adaptar el material siempre que reconozcas la autoría de forma adecuada.\nUso no comercial: No está permitido usar el material con fines comerciales.\nCompartir igual: Si adaptás o transformas el material, debés distribuirlo bajo la misma licencia."
+    "text": "Licencia\nEstos materiales están publicados bajo la licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA), la cual implica:\n\nAtribución: Podés compartir y adaptar el material siempre que reconozcas la autoría de forma adecuada.\nUso no comercial: No está permitido usar el material con fines comerciales.\nCompartir igual: Si adaptás o transformas el material, debés distribuirlo bajo la misma licencia.\n\n{{&lt; fa brands creative-commons-by size=2x &gt;}}{{&lt; fa brands creative-commons-sa size=2x &gt;}}"
   },
   {
     "objectID": "slides/index.html#section",

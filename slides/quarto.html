@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>intro – quarto-rladiesBA</title>
+<title>quarto – quarto-rladiesBA</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -144,13 +178,21 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#mientras-esperás-a-que-comencemos" id="toc-mientras-esperás-a-que-comencemos" class="nav-link active" data-scroll-target="#mientras-esperás-a-que-comencemos">Mientras esperás a que comencemos…</a></li>
-  <li><a href="#agradecimientos" id="toc-agradecimientos" class="nav-link" data-scroll-target="#agradecimientos">Agradecimientos</a></li>
-  <li><a href="#codigo-de-conducta" id="toc-codigo-de-conducta" class="nav-link" data-scroll-target="#codigo-de-conducta">Codigo de conducta</a></li>
-  <li><a href="#licencia" id="toc-licencia" class="nav-link" data-scroll-target="#licencia">Licencia</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#quarto" id="toc-quarto" class="nav-link active" data-scroll-target="#quarto">Quarto</a>
+  <ul class="collapse">
+  <li><a href="#qué-es-quarto" id="toc-qué-es-quarto" class="nav-link" data-scroll-target="#qué-es-quarto">¿Qué es Quarto?</a></li>
+  <li><a href="#diferencias-con-rmarkdown" id="toc-diferencias-con-rmarkdown" class="nav-link" data-scroll-target="#diferencias-con-rmarkdown">Diferencias con RMarkdown</a></li>
+  <li><a href="#diferencias-con-rmarkdown-1" id="toc-diferencias-con-rmarkdown-1" class="nav-link" data-scroll-target="#diferencias-con-rmarkdown-1">Diferencias con RMarkdown</a></li>
+  <li><a href="#convertir-un-.rmd-a-.qmd" id="toc-convertir-un-.rmd-a-.qmd" class="nav-link" data-scroll-target="#convertir-un-.rmd-a-.qmd">Convertir un <code>.Rmd</code> a <code>.qmd</code></a></li>
+  </ul></li>
+  <li><a href="#antes-de-que-te-vayas.." id="toc-antes-de-que-te-vayas.." class="nav-link" data-scroll-target="#antes-de-que-te-vayas..">Antes de que te vayas..</a>
+  <ul class="collapse">
+  <li><a href="#seguinos" id="toc-seguinos" class="nav-link" data-scroll-target="#seguinos">Seguinos</a></li>
+  <li><a href="#no-te-pierdas-las-novedades" id="toc-no-te-pierdas-las-novedades" class="nav-link" data-scroll-target="#no-te-pierdas-las-novedades">¡No te pierdas las novedades!</a></li>
+  </ul></li>
+  <li><a href="#muchas-gracias" id="toc-muchas-gracias" class="nav-link" data-scroll-target="#muchas-gracias">¡Muchas gracias!</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/jformoso/quarto-RLadiesBA/blob/main/slides/01-intro.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/edit/main/slides/01-intro.qmd" class="toc-action"><i class="bi empty"></i>Editar esta página</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/jformoso/quarto-RLadiesBA/blob/main/slides/quarto.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/edit/main/slides/quarto.qmd" class="toc-action"><i class="bi empty"></i>Editar esta página</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -158,63 +200,92 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="mientras-esperás-a-que-comencemos" class="level2">
-<h2 class="anchored" data-anchor-id="mientras-esperás-a-que-comencemos">Mientras esperás a que comencemos…</h2>
-<p>Asegurate de haber seguido las instrucciones de configuración y que tenés los programas y paquetes que necesitás para seguir el taller:</p>
-<p><a href="https://jformoso.github.io/quarto-rladiesBA/setup.html">jformoso.github.io/intro-quarto/setup.html</a>.</p>
-</section>
-<section id="agradecimientos" class="level2">
-<h2 class="anchored" data-anchor-id="agradecimientos">Agradecimientos</h2>
-<p><strong>Este taller y sus materiales se basaron en:</strong></p>
-<p><br>
-<a href="https://github.com/jadeynryan/parameterized-quarto-workshop">Parameterized Reporting with Quarto: R-Ladies Abuja</a> dictado por <a href="https://jadeyryan.com/">Jadeyn Ryan</a></p>
-<p><br>
-<a href="https://posit-conf-2024.github.io/quarto-dashboards/">Build-a-Dashboard</a> dictado por <a href="https://mine-cr.com/">Mine Çetinkaya-Rundel</a></p>
-</section>
-<section id="codigo-de-conducta" class="level2">
-<h2 class="anchored" data-anchor-id="codigo-de-conducta">Codigo de conducta</h2>
-<p>Todos los espacios de participación de R-Ladies Global y RLadies Buenos Aires, incluyendo reuniones presenciales o virtuales, Twitter, Slack y listas de correo se rigen por el <a href="https://github.com/rladies/.github/blob/master/CODE_OF_CONDUCT.md#spanish">Código de conducta de RLadies</a>.</p>
-</section>
-<section id="licencia" class="level2">
-<h2 class="anchored" data-anchor-id="licencia">Licencia</h2>
-<p>Estos materiales están publicados bajo la licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)</a>, la cual implica:</p>
-<ul>
-<li>Atribución: Podés compartir y adaptar el material siempre que reconozcas la autoría de forma adecuada.</li>
-<li>Uso no comercial: No está permitido usar el material con fines comerciales.</li>
-<li>Compartir igual: Si adaptás o transformas el material, debés distribuirlo bajo la misma licencia.</li>
+<section id="quarto" class="level1 section">
+<h1 class="section">Quarto</h1>
+<section id="qué-es-quarto" class="level2">
+<h2 class="anchored" data-anchor-id="qué-es-quarto">¿Qué es Quarto?</h2>
+<div class="incremental">
+<ul class="incremental">
+<li><p>Un sistema de publicación científica y técnica de código abierto.</p></li>
+<li><p>Combina texto, código y resultados en un solo documento, permitiendo la creación de reportes totalmente reproducibles.</p></li>
+<li><p>Permite generar artículos, presentaciones, tableros, páginas web, blogs, libros en en múltiples formatos (HTML, pdf, MS Word, ppt).</p></li>
 </ul>
-<p><i class="fa-brands fa-creative-commons fa-2x" aria-label="creative-commons"></i>{{&lt; fa brands creative-commons-by size=2x &gt;}}<i class="fa-brands fa-creative-commons-nc fa-2x" aria-label="creative-commons-nc"></i>{{&lt; fa brands creative-commons-sa size=2x &gt;}}</p>
+</div>
 </section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
+<section id="diferencias-con-rmarkdown" class="level2">
+<h2 class="anchored" data-anchor-id="diferencias-con-rmarkdown">Diferencias con RMarkdown</h2>
+<div class="incremental">
+<ul class="incremental">
+<li>Soporte multilenguaje: R, python, Julia, JavaScript, Observable.</li>
+<li>Unifica funcionalidades: combina en una única herramienta las capacidades de varios paquetes del ecosistema de RMarkdown. Facilita la generación de múltiples formatos.</li>
+<li>Incluye una interfaz de línea de comando amigable para renderizar documentos.</li>
+</ul>
+</div>
+</section>
+<section id="diferencias-con-rmarkdown-1" class="level2">
+<h2 class="anchored" data-anchor-id="diferencias-con-rmarkdown-1">Diferencias con RMarkdown</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/horst-qmd-render-schema.png" class="img-fluid figure-img"></p>
+<figcaption>Ilustración de la presentación “Hello, Quarto” de Julia Lowndes y Mine Çetinkaya-Rundel, presentada en la Conferencia de RStudio 2022 realizada por Allison Horst.</figcaption>
+</figure>
+</div>
+</section>
+<section id="convertir-un-.rmd-a-.qmd" class="level2">
+<h2 class="anchored" data-anchor-id="convertir-un-.rmd-a-.qmd">Convertir un <code>.Rmd</code> a <code>.qmd</code></h2>
+<ol type="1">
+<li>Cambiar la extensión del archivo de <code>.Rmd</code> a <code>.qmd</code>.</li>
+<li>En el YAML, cambiar <code>output:</code> por <code>format:</code>.</li>
+<li>Convertir los headers de los chunks con <code>knitr::convert_chunk_header()</code></li>
+</ol>
 <div class="columns">
-<div class="column" style="width:10%;">
-
-</div><div class="column" style="width:20%;">
-<p><img src="images/betsy2.png" class="img-fluid" style="border-radius:1em;margin-top:auto"></p>
-<p>Betsabé Cohen<br>
-</p>
-<p><img src="images/moni.jpg" class="img-fluid" style="border-radius:1em;margin-top:auto"></p>
-<p>Mónica Alonso</p>
-</div><div class="column" style="width:20%;">
-<p><img src="images/kari.jpg" class="img-fluid" style="border-radius:1em;margin-top:auto"></p>
-<p>Karina Bartolomé</p>
-<p><img src="images/vir.jpg" class="img-fluid" style="border-radius:1em;margin-top:auto"></p>
-<p>Virginia García Alonso</p>
-</div><div class="column" style="width:20%;">
-<p><img src="images/jime.png" class="img-fluid" style="border-radius:1em;margin-top:auto"></p>
-<p>Jimena Saucedo</p>
-<p><img src="images/pri.jpg" class="img-fluid" style="border-radius:1em;margin-top:auto"></p>
-<p>Priscilla Minotti</p>
-</div><div class="column" style="width:20%;">
-<p><img src="images/maria.jpg" class="img-fluid" style="border-radius:1em;margin-top:auto"></p>
-<p>María Nanton</p>
-<p><img src="images/jesi.png" class="img-fluid" style="border-radius:1em;margin-top:auto" width="270"></p>
-<p>Jesica Formoso</p>
-</div><div class="column" style="width:10%;">
-
+<div class="column" style="width:50%;">
+<p><strong>R Markdown</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r, label=rmarkdown, eval=FALSE}</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="in"># código</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div><div class="column" style="width:50%;">
+<p><strong>Quarto</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="in">#| label: quarto</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="in">#| eval: false</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="in"># código</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
+</div>
+</section>
+</section>
+<section id="antes-de-que-te-vayas.." class="level1">
+<h1>Antes de que te vayas..</h1>
+<section id="seguinos" class="level2">
+<h2 class="anchored" data-anchor-id="seguinos">Seguinos</h2>
+<p><i class="fa-brands fa-instagram" aria-label="instagram"></i> <a href="https://www.instagram.com/rladiesba/">@rladiesba</a><br>
+<i class="fa-brands fa-twitter" aria-label="twitter"></i> <a href="https://x.com/RLadiesBA">@RLadiesBA</a><br>
+<i class="fa-brands fa-slack" aria-label="slack"></i> <a href="https://join.slack.com/t/rladies-ba/shared_invite/zt-2v23zo3gi-YGI1yZX2wrvhYfAiA_v5Xg" class="uri">https://join.slack.com/t/rladies-ba/shared_invite/zt-2v23zo3gi-YGI1yZX2wrvhYfAiA_v5Xg</a><br>
+<i class="fa-solid fa-globe" aria-label="globe"></i> <a href="https://rladiesba.netlify.app/" class="uri">https://rladiesba.netlify.app/</a></p>
+</section>
+<section id="no-te-pierdas-las-novedades" class="level2 large-font-slide">
+<h2 class="large-font-slide anchored" data-anchor-id="no-te-pierdas-las-novedades">¡No te pierdas las novedades!</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>¡Se viene el club de lectura del libro <a href="https://mastering-shiny.org/">Mastering Shiny</a> de Hadley Wickham! Sumate para aprender `shiny` entre todes.</p>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><img src="images/cover-ma.png" class="img-fluid quarto-figure quarto-figure-right figure-img" width="419"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="muchas-gracias" class="level1">
+<h1>¡Muchas gracias!</h1>
 
 
 </section>
@@ -653,7 +724,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jformoso/quarto-RLadiesBA/blob/main/slides/01-intro.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/edit/main/slides/01-intro.qmd" class="toc-action"><i class="bi empty"></i>Editar esta página</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jformoso/quarto-RLadiesBA/blob/main/slides/quarto.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/edit/main/slides/quarto.qmd" class="toc-action"><i class="bi empty"></i>Editar esta página</a></li><li><a href="https://github.com/jformoso/quarto-RLadiesBA/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Website construida con <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
