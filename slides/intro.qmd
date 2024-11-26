@@ -10,7 +10,9 @@ Asegurate de haber seguido las instrucciones de configuración y que tenés los 
 
 [Parameterized Reporting with Quarto: R-Ladies Abuja](https://github.com/jadeynryan/parameterized-quarto-workshop) dictado por [Jadeyn Ryan](https://jadeyryan.com/)
 
-[Build-a-Dashboard](https://posit-conf-2024.github.io/quarto-dashboards/) dictado por [Mine Çetinkaya-Rundel](https://mine-cr.com/)\
+[Build-a-Dashboard](https://posit-conf-2024.github.io/quarto-dashboards/) dictado por [Mine Çetinkaya-Rundel](https://mine-cr.com/)
+
+\
 
 **Auspisian RLadies Buenos Aires:**
 
