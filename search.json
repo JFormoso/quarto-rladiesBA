@@ -102,7 +102,7 @@
     "href": "setup.html",
     "title": "Instrucciones de configuración",
     "section": "",
-    "text": "Antes del taller, por favor completa los siguientes pasos:\n\n1. Software\nDescargá e instalá las últimas versiones de R, RStudio y Quarto:\n\nR 4.2.3 o superior: https://cran.r-project.org\nRStudio 2024.04.0 or superior: https://posit.co/download/rstudio-desktop\nQuarto 1.4 or superior: https://quarto.org/docs/download\n\n\n\n2. Paquetes\nInstalá los siguientes paquetes copiando y pegando el siguiente código en la consola de RStudio:\n\npaquetes_lista &lt;- c(\n  \"tidyverse\", \"gt\", \"ggthemes\"\n)\ninstall.packages(paquetes_lista)",
+    "text": "Antes del taller, por favor completa los siguientes pasos:\n\n1. Software\nDescargá e instalá las últimas versiones de R, RStudio y Quarto:\n\nR 4.2.3 o superior: https://cran.r-project.org\nRStudio 2024.04.0 or superior: https://posit.co/download/rstudio-desktop\nQuarto 1.4 or superior: https://quarto.org/docs/download\n\n\n\n2. Paquetes\nInstalá los siguientes paquetes copiando y pegando el siguiente código en la consola de RStudio:\n\npaquetes_lista &lt;- c(\n  \"tidyverse\", \"gt\", \"ggthemes\"\n)\ninstall.packages(paquetes_lista)\n\n\n\n3. Ejercicios\nDescargá el archivo Taller-quarto-ejercicios.rar y descomprimilo en tu computadora.",
     "crumbs": [
       "Instrucciones de configuración"
     ]
