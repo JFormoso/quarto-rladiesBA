@@ -30,4 +30,4 @@ install.packages(paquetes_lista)
 ```
 #### 3. Ejercicios
 
-Descargá el archivo **Taller-quarto-ejercicios.rar** y descomprimilo en tu computadora. 
+Descargá el archivo [Taller-quarto-ejercicios.rar](https://github.com/JFormoso/quarto-rladiesBA/blob/main/Taller-quarto-ejercicios.rar) y descomprimilo en tu computadora. 
