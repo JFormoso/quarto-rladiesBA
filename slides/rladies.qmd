@@ -12,7 +12,10 @@
 
 ::: columns
 ::: {.column width="50%"}
-¡Se viene el club de lectura del libro [Mastering Shiny](https://mastering-shiny.org/) de Hadley Wickham! Sumate para aprender \`shiny\` entre todes.
+¡El 2025 se viene con todo!
+
+-   Lanzaremos el club de lectura del libro [Mastering Shiny](https://mastering-shiny.org/) de Hadley Wickham. Sumate para aprender `shiny` entre todes.
+-   Vení a nuestro próximo meetup sobre tableros o dashboards con `Quarto`💜
 :::
 
 ::: {.column width="50%"}

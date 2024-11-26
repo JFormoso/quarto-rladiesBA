@@ -14,18 +14,25 @@ Asegurate de haber seguido las instrucciones de configuración y que tenés los 
 
 **Auspisian RLadies Buenos Aires:**
 
-
 ::: columns
+::: {.column width="10%"}
+:::
+
+::: {.column width="20%"}
+![](images/rladies-logo.png){style="border-radius:1em;margin-top:auto" width="170"}
+:::
+
 ::: {.column width="40%"}
-![](images/rladies-logo.png){style="border-radius:1em;margin-top:auto" height="270"}
+![](images/rconsortium.png){style="border-radius:1em;margin-top:auto"}
 :::
 
-::: {.column width="50%"}
-
-![](images/rconsortium.png){style="border-radius:1em;margin-top:auto" height="170"}
-:::
+::: {.column width="20%"}
+![](images/clipboard-672291485.png)
 :::
 
+::: {.column width="10%"}
+:::
+:::
 
 ## Codigo de conducta
 
@@ -68,7 +75,6 @@ Virginia García Alonso
 :::
 
 ::: {.column width="20%"}
-
 ![](images/jime.png){style="border-radius:1em;margin-top:auto"}
 
 Jimena Saucedo

@@ -14,10 +14,7 @@ editor:
 
 🗺️ Online (el link de zoom se compartirá el mismo día)
 
-✍️ [¡Inscribite
-aquí!](https://www.meetup.com/es-ES/rladies-buenos-aires/events/304386918/)
-
-🐱 [Repositorio en GitHub](https://jformoso.github.io/quarto-rladiesBA/)
+🐱 [Repositorio en GitHub](https://github.com/JFormoso/quarto-rladiesBA)
 
 \
 

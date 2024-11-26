@@ -6,9 +6,8 @@
 
 ⏰18:30 pm - 20:30 pm Argentina (UTC -3)
 
-🗺️Online (el link de zoom se compartirá el mismo día)
+🗺️ Online (el link de zoom se compartirá el mismo día)
 
-🐱 Repositorio en GitHub
 
 ## Sobre el taller
 
