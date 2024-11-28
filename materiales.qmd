@@ -9,9 +9,10 @@ title: "Materiales"
 ```{=html}
 <iframe class="slides" src="/slides/index.html"></iframe>
 ```
+## Video
 
-## Grabación del taller
+Podés acceder a la grabación del taller 👉🏼[aquí](https://www.youtube.com/watch?v=puykTjJ43Xs&ab_channel=RLadiesBuenosAires)👈🏼
 
-Se encontrará disponible más adelante.
+\\
 
-
+Visitá nuestro [canal de youtube](https://www.youtube.com/@RLadiesBuenosAires) para encontrar más videos como este.
