@@ -74,3 +74,16 @@ Quarto: R-Ladies
 Abuja](https://github.com/jadeynryan/parameterized-quarto-workshop) y
 por [Mine Çetinkaya-Rundel](https://mine-cr.com/) en el taller
 [Build-a-Dashboard.](https://posit-conf-2024.github.io/quarto-dashboards/)
+
+Este taller fue auspiciado por:
+
+[![](slides/images/rladies-logo.png){width="100"}](https://rladies.org/)
+
+[![](slides/images/rconsortium.png){width="366"}](https://r-consortium.org/)
+
+y un agradecimiento especial a la [Universidad Nacional Tres de
+Febrero](https://untref.edu.ar/) por facilitarnos un espacio para los
+encuentros presenciales y por acompañar en la difusión de nuestros
+talleres.
+
+![](slides/images/clipboard-672291485.png){width="185"}
