@@ -1,0 +1,118 @@
+# Películas de Navidad: un dataset festivo.
+
+```{r}
+#| label: paquetes
+#| warning: false
+
+library(tidyverse)
+library(ggthemes)
+library(gt)
+
+
+```
+
+## Conozcamos los datos
+
+```{r}
+#| label: importar-datos
+
+peliculas <- read_csv("datos/christmas_movies.csv")
+```
+
+El dataset incluye todas las películas con temática navideña listadas en IMDB hasta Diciembre de 2023 y fue descargado de la plataforma Kaggle .
+
+### Ejercicio 1: inline code
+
+Se incluyen\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ películas navideñas sobre las que se registraron las siguientes variables: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+
+## ¿Siempre fueron tan populares estas películas?
+
+```{r}
+#| label: años
+
+
+peliculas |>
+  ggplot(aes(x = release_year)) +
+  geom_bar(fill = "red") +
+  theme_minimal() +
+  labs(x = "Año de estreno", 
+       y = "Cantidad", 
+       caption = "Cantidad de películas navideñas por año")
+  
+  
+
+
+```
+
+# Organización en columnas
+
+## Películas más populares (columnas usando yaml headers)
+
+```{r}
+#| label: pelicula-popular
+#| fig-height: 3.5
+#| fig-width: 4
+
+
+peliculas |>
+  filter(votes > 400000) |>
+  slice_max(order_by = imdb_rating, n = 10) |>
+  select(title, imdb_rating, votes) |>
+  gt() |>
+    cols_label(
+    title = "Título",
+    imdb_rating = "Puntaje",
+    votes = "Cantidad de votos"
+  )
+
+
+
+peliculas |>
+  ggplot(aes(x = imdb_rating)) +
+  geom_density(fill = "#008000") +
+  theme_minimal() +
+  labs(x = "Votos", y = "Cantidad")
+
+
+
+```
+
+## Películas más populares (columnas usando layout personalizado)
+
+### Ejercicio 2: Organizar en columas
+
+```{r}
+#| label: peliculas-menos-populares
+
+peliculas |>
+  slice_min(order_by = imdb_rating, n = 10) |>
+  select(title, imdb_rating, votes) |>
+  gt() |>
+    cols_label(
+    title = "Título",
+    imdb_rating = "Puntaje",
+    votes = "Cantidad de votos"
+  )
+
+peliculas |>
+  ggplot(aes(x = release_year, y = imdb_rating)) +
+  geom_point(color = "gold") +
+  theme_minimal()
+
+```
+
+## La película más popular
+
+```{r}
+#| label: imagen-pelicula
+
+pelicula_popular <- peliculas |>
+  filter(votes > 400000) |>
+  slice_max(order_by = imdb_rating, n = 1) |>
+  pull(img_src)
+
+
+
+```
+
+![](`r pelicula_popular`)
