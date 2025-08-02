@@ -118,11 +118,53 @@
     ]
   },
   {
+    "objectID": "exercises/Taller-quarto-ejercicios/pelis_navidad.html",
+    "href": "exercises/Taller-quarto-ejercicios/pelis_navidad.html",
+    "title": "Películas de Navidad: un dataset festivo.",
+    "section": "",
+    "text": "library(tidyverse)\nlibrary(ggthemes)\nlibrary(gt)\n\n\n\n\npeliculas &lt;- read_csv(\"datos/christmas_movies.csv\")\n\nRows: 873 Columns: 14\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (9): title, rating, genre, description, director, stars, gross, img_src,...\ndbl (4): runtime, imdb_rating, meta_score, release_year\nnum (1): votes\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\nEl dataset incluye todas las películas con temática navideña listadas en IMDB hasta Diciembre de 2023 y fue descargado de la plataforma Kaggle .\n\n\nSe incluyen_______________ películas navideñas sobre las que se registraron las siguientes variables: _________________.\n\n\n\n\n\npeliculas |&gt;\n  ggplot(aes(x = release_year)) +\n  geom_bar(fill = \"red\") +\n  theme_minimal() +\n  labs(x = \"Año de estreno\", \n       y = \"Cantidad\", \n       caption = \"Cantidad de películas navideñas por año\")\n\nWarning: Removed 11 rows containing non-finite outside the scale range\n(`stat_count()`)."
+  },
+  {
+    "objectID": "exercises/Taller-quarto-ejercicios/pelis_navidad.html#conozcamos-los-datos",
+    "href": "exercises/Taller-quarto-ejercicios/pelis_navidad.html#conozcamos-los-datos",
+    "title": "Películas de Navidad: un dataset festivo.",
+    "section": "",
+    "text": "peliculas &lt;- read_csv(\"datos/christmas_movies.csv\")\n\nRows: 873 Columns: 14\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (9): title, rating, genre, description, director, stars, gross, img_src,...\ndbl (4): runtime, imdb_rating, meta_score, release_year\nnum (1): votes\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\nEl dataset incluye todas las películas con temática navideña listadas en IMDB hasta Diciembre de 2023 y fue descargado de la plataforma Kaggle .\n\n\nSe incluyen_______________ películas navideñas sobre las que se registraron las siguientes variables: _________________."
+  },
+  {
+    "objectID": "exercises/Taller-quarto-ejercicios/pelis_navidad.html#siempre-fueron-tan-populares-estas-películas",
+    "href": "exercises/Taller-quarto-ejercicios/pelis_navidad.html#siempre-fueron-tan-populares-estas-películas",
+    "title": "Películas de Navidad: un dataset festivo.",
+    "section": "",
+    "text": "peliculas |&gt;\n  ggplot(aes(x = release_year)) +\n  geom_bar(fill = \"red\") +\n  theme_minimal() +\n  labs(x = \"Año de estreno\", \n       y = \"Cantidad\", \n       caption = \"Cantidad de películas navideñas por año\")\n\nWarning: Removed 11 rows containing non-finite outside the scale range\n(`stat_count()`)."
+  },
+  {
+    "objectID": "exercises/Taller-quarto-ejercicios/pelis_navidad.html#películas-más-populares-columnas-usando-yaml-headers",
+    "href": "exercises/Taller-quarto-ejercicios/pelis_navidad.html#películas-más-populares-columnas-usando-yaml-headers",
+    "title": "Películas de Navidad: un dataset festivo.",
+    "section": "Películas más populares (columnas usando yaml headers)",
+    "text": "Películas más populares (columnas usando yaml headers)\n\npeliculas |&gt;\n  filter(votes &gt; 400000) |&gt;\n  slice_max(order_by = imdb_rating, n = 10) |&gt;\n  select(title, imdb_rating, votes) |&gt;\n  gt() |&gt;\n    cols_label(\n    title = \"Título\",\n    imdb_rating = \"Puntaje\",\n    votes = \"Cantidad de votos\"\n  )\n\n\n\n\n\n\n\nTítulo\nPuntaje\nCantidad de votos\n\n\n\n\nIt's a Wonderful Life\n8.6\n486479\n\n\nDie Hard\n8.2\n924658\n\n\nEdward Scissorhands\n7.9\n515997\n\n\nHome Alone\n7.7\n629713\n\n\nSilver Linings Playbook\n7.7\n734121\n\n\nLove Actually\n7.6\n517283\n\n\n\n\n\n\npeliculas |&gt;\n  ggplot(aes(x = imdb_rating)) +\n  geom_density(fill = \"#008000\") +\n  theme_minimal() +\n  labs(x = \"Votos\", y = \"Cantidad\")\n\nWarning: Removed 34 rows containing non-finite outside the scale range\n(`stat_density()`)."
+  },
+  {
+    "objectID": "exercises/Taller-quarto-ejercicios/pelis_navidad.html#películas-más-populares-columnas-usando-layout-personalizado",
+    "href": "exercises/Taller-quarto-ejercicios/pelis_navidad.html#películas-más-populares-columnas-usando-layout-personalizado",
+    "title": "Películas de Navidad: un dataset festivo.",
+    "section": "Películas más populares (columnas usando layout personalizado)",
+    "text": "Películas más populares (columnas usando layout personalizado)\n\nEjercicio 2: Organizar en columas\n\npeliculas |&gt;\n  slice_min(order_by = imdb_rating, n = 10) |&gt;\n  select(title, imdb_rating, votes) |&gt;\n  gt() |&gt;\n    cols_label(\n    title = \"Título\",\n    imdb_rating = \"Puntaje\",\n    votes = \"Cantidad de votos\"\n  )\n\n\n\n\n\n\n\nTítulo\nPuntaje\nCantidad de votos\n\n\n\n\nKirk Cameron's Saving Christmas\n1.3\n16639\n\n\nThe Christmas Tree\n1.4\n866\n\n\nWe Wish You a Turtle Christmas\n2.2\n444\n\n\nLuccas Neto em Perdidos na Noite de Natal\n2.5\n45\n\n\nThe Three Dogateers\n2.9\n321\n\n\nChristmas Holidate\n3.0\n19\n\n\nPups Alone\n3.3\n1437\n\n\nThis Is Our Christmas\n3.3\n189\n\n\nAn Unremarkable Christmas\n3.3\n160\n\n\nElf-Man\n3.4\n757\n\n\nChristmas Coupon\n3.4\n254\n\n\n\n\n\n\npeliculas |&gt;\n  ggplot(aes(x = release_year, y = imdb_rating)) +\n  geom_point(color = \"gold\") +\n  theme_minimal()\n\nWarning: Removed 35 rows containing missing values or values outside the scale range\n(`geom_point()`)."
+  },
+  {
+    "objectID": "exercises/Taller-quarto-ejercicios/pelis_navidad.html#la-película-más-popular",
+    "href": "exercises/Taller-quarto-ejercicios/pelis_navidad.html#la-película-más-popular",
+    "title": "Películas de Navidad: un dataset festivo.",
+    "section": "La película más popular",
+    "text": "La película más popular\n\npelicula_popular &lt;- peliculas |&gt;\n  filter(votes &gt; 400000) |&gt;\n  slice_max(order_by = imdb_rating, n = 1) |&gt;\n  pull(img_src)"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Transforma tus datos en historias visuales con Quarto",
     "section": "",
-    "text": "📆 26 de Noviembre, 2024\n⏰18:30 pm - 20:30 pm Argentina (UTC -3)\n🗺️ Online (el link de zoom se compartirá el mismo día)\n🐱 Repositorio en GitHub",
+    "text": "📆 26 de Noviembre, 2024\n⏰18:30 - 20:30 Argentina (UTC -3)\n🗺️ Online (el link de zoom se compartirá el mismo día)\n🐱 Repositorio en GitHub",
     "crumbs": [
       "Inicio"
     ]
@@ -132,7 +174,7 @@
     "href": "index.html#fecha-y-ubicación",
     "title": "Transforma tus datos en historias visuales con Quarto",
     "section": "",
-    "text": "📆 26 de Noviembre, 2024\n⏰18:30 pm - 20:30 pm Argentina (UTC -3)\n🗺️ Online (el link de zoom se compartirá el mismo día)\n🐱 Repositorio en GitHub",
+    "text": "📆 26 de Noviembre, 2024\n⏰18:30 - 20:30 Argentina (UTC -3)\n🗺️ Online (el link de zoom se compartirá el mismo día)\n🐱 Repositorio en GitHub",
     "crumbs": [
       "Inicio"
     ]
@@ -212,7 +254,7 @@
     "href": "materiales.html#video",
     "title": "Materiales",
     "section": "Video",
-    "text": "Video\nPodés acceder a la grabación del taller 👉🏼aquí👈🏼\n\\\nVisitá nuestro canal de youtube para encontrar más videos como este.",
+    "text": "Video\nPodés acceder a la grabación del taller 👉🏼aquí👈🏼\nVisitá nuestro canal de youtube para encontrar más videos como este.",
     "crumbs": [
       "Materiales"
     ]
@@ -257,14 +299,14 @@
     "href": "slides/index.html#qué-es-quarto",
     "title": "Transforma tus datos en historias visuales con quarto",
     "section": "¿Qué es Quarto?",
-    "text": "¿Qué es Quarto?\n\n\nUn sistema de publicación científica y técnica de código abierto.\nCombina texto, código y resultados en un solo documento, permitiendo la creación de reportes totalmente reproducibles.\nPermite generar artículos, presentaciones, tableros, páginas web, blogs, libros en en múltiples formatos (HTML, pdf, MS Word, ppt)."
+    "text": "¿Qué es Quarto?\n\nUn sistema de publicación científica y técnica de código abierto.\nCombina texto, código y resultados en un solo documento, permitiendo la creación de reportes totalmente reproducibles.\nPermite generar artículos, presentaciones, tableros, páginas web, blogs, libros en en múltiples formatos (HTML, pdf, MS Word, ppt)."
   },
   {
     "objectID": "slides/index.html#diferencias-con-rmarkdown",
     "href": "slides/index.html#diferencias-con-rmarkdown",
     "title": "Transforma tus datos en historias visuales con quarto",
     "section": "Diferencias con RMarkdown",
-    "text": "Diferencias con RMarkdown\n\n\nSoporte multilenguaje: R, python, Julia, JavaScript, Observable.\nUnifica funcionalidades: combina en una única herramienta las capacidades de varios paquetes del ecosistema de RMarkdown. Facilita la generación de múltiples formatos.\nIncluye una interfaz de línea de comando amigable para renderizar documentos."
+    "text": "Diferencias con RMarkdown\n\nSoporte multilenguaje: R, python, Julia, JavaScript, Observable.\nUnifica funcionalidades: combina en una única herramienta las capacidades de varios paquetes del ecosistema de RMarkdown. Facilita la generación de múltiples formatos.\nIncluye una interfaz de línea de comando amigable para renderizar documentos."
   },
   {
     "objectID": "slides/index.html#diferencias-con-rmarkdown-1",
